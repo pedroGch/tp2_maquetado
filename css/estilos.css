@@ -1,0 +1,430 @@
+:root{
+  --deep-blue: #002f6c;
+  --blue: #01579b; 
+  --light-blue: #bbdefb; 
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+} 
+
+html{
+	scroll-behavior: smooth;
+}
+
+.mayuscula{
+  text-transform:uppercase;
+}
+
+header{
+  width: 100%;
+  height: 120px;
+  background-color: var(--deep-blue);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  position: relative;
+  top: 0;
+  z-index: 1;
+}
+
+#logo {
+  padding: 15px 15px 15px 50px;
+  width: 95px;
+  height: 79px;
+  display: inline-block;
+  margin-left: 16%;
+  background-image: url("../imagenes/icono-blanco.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 0px;
+}
+
+
+header nav {
+  max-width: 80%;
+  display: inline-block;
+  margin-left: 35%;
+  vertical-align: top;
+  margin-top: 30px;
+}
+
+header nav ul{
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  position: relative;
+}
+
+header nav ul li{
+  list-style: none;
+  margin-right: 15px;
+  color: #fff;
+  margin-top: 15px;
+  
+}
+
+.menu-link{
+  text-decoration: none;
+  color: #fff;
+}
+
+header nav ul li:hover{
+  text-decoration: underline;
+}
+
+#sub-menu{
+  position: absolute;
+  background-color: var(--deep-blue);
+  display: none;
+}
+
+#sub-menu li a {
+  display: block;
+  padding: 10px;
+}
+
+.menu li:hover #sub-menu{
+  display: block;
+}
+
+main{
+  /*width: 1240px;*/
+  width: 100vw;
+  background-color: #FFF;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: auto;
+}
+
+main p{
+  padding: 20px;
+
+}
+
+#inicio{
+  width: 100vw;
+  background-image: url("../imagenes/fondo-inicio.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 600px;
+}
+
+.container-centrado{
+  width: 1200px;
+  margin: 0 auto;
+
+}
+
+.container-centrado-h1{
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 5%;
+}
+
+#welcome{
+  color: #fff;
+  background:rgba(0, 47, 108, 1);
+  clip-path: polygon(8% 0, 100% 0%, 94% 100%, 0% 100%);
+  padding-left: 50px;
+  width: 50%;
+  z-index: -1;
+}
+
+#principal{
+  color: #fff;
+  margin-left: -60px;
+  text-align: center;
+  padding: 0;
+}
+
+#texto-principal{
+  width: 44%;
+  height: 250px;
+  margin-top: -13px;
+  color: var(--deep-blue);
+  padding: 40px;
+  text-align: center;
+  font-weight: 600;
+}
+
+h1, h2{
+  padding: 40px 20px 20px 20px;
+  font-size: 40px;
+  text-align: center;
+}
+
+h3 {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: var(--deep-blue);
+}
+
+.img-centrada{
+  text-align: center;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+figcaption{
+  font-weight: 400;
+  text-align: center;
+  margin: auto;
+}
+
+.fig-max-width{
+  width: 700px;
+}
+
+section h1{
+  color: var(--deep-blue);
+}
+
+#seccion-autores{
+  margin-top: 50px;
+  text-align: center;
+  background-color: var(--light-blue);
+}
+
+
+
+.autor {
+  display: inline-block;
+  padding: 40px;
+}
+
+footer {
+  width: 100%;
+  height: 150px;
+  background-color: var(--blue);
+  color: #fff;
+  position: absolute;
+  
+}
+
+footer ul {
+  display: inline-block;
+}
+
+footer p, ul {
+  display: inline-block;
+}
+
+.logo-davinci, .datos-tp {
+  display: inline-block;
+  float: left;
+  padding: 20px;
+}
+
+.lista-sin-estilo {
+  list-style: none;
+ }
+
+ .hiperv-sin-estilo{
+   text-decoration: none;
+   color: #FFF;
+ }
+
+ #alineado-derecha {
+   float: right;
+   display: inline-block;
+   padding: 20px;
+   text-align: right;
+ }
+
+ #datos-tp {
+   display: inline-block;
+   float: left;
+   padding: 30px;
+  
+ }
+
+
+ /* SECCION INSTITUCIONES CULTURALES*/
+
+ .h3-centrado {
+  text-align: center;
+  color: var(--deep-blue);
+  padding-top: 30px;
+}
+
+.titulo-oculto{
+   display: none;
+ }
+#instituciones-culturales {
+  background-color: var(--light-blue);
+  /*margin-top: 50px;*/
+}
+
+#p-inst-culturales{
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+#botonera-inst-culturales{
+  margin: auto;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+
+#foto-1-inst {
+  background-image: url("../imagenes/bridge-color.jpg"); 
+  width: 220px;
+  height: 300px;
+  background-repeat: no-repeat; 
+  list-style: none;
+  display: inline-block;
+  padding-left: 20px;
+}
+
+ #foto-1-inst:hover {
+   background-image: url("../imagenes/bridge-hover.jpg"); 
+   width: 220px;
+   height: 300px;
+   background-repeat: no-repeat; 
+   list-style: none;
+   display: inline-block;
+ }
+
+ #foto-2-inst {
+  background-image: url("../imagenes/gardens-color.jpg"); 
+  width: 220px;
+  height: 300px;
+  background-repeat: no-repeat; 
+  list-style: none;
+  display: inline-block;
+  padding-left: 20px;
+}
+
+ #foto-2-inst:hover {
+   background-image: url("../imagenes/gardens-hover.jpg"); 
+   width: 220px;
+   height: 300px;
+   background-repeat: no-repeat; 
+   list-style: none;
+   display: inline-block;
+ }
+
+ #foto-3-inst {
+  background-image: url("../imagenes/park-color.jpg"); 
+  width: 220px;
+  height: 300px;
+  background-repeat: no-repeat; 
+  list-style: none;
+  display: inline-block;
+  padding-left: 20px;
+}
+
+ #foto-3-inst:hover {
+   background-image: url("../imagenes/park-hover.jpg"); 
+   width: 220px;
+   height: 300px;
+   background-repeat: no-repeat; 
+   list-style: none;
+   display: inline-block;
+ }
+
+ #foto-4-inst {
+  background-image: url("../imagenes/town-hall-color.jpg"); 
+  width: 220px;
+  height: 300px;
+  background-repeat: no-repeat; 
+  list-style: none;
+  display: inline-block;
+}
+
+ #foto-4-inst:hover {
+   background-image: url("../imagenes/town-hall-hover.jpg"); 
+   width: 220px;
+   height: 300px;
+   background-repeat: no-repeat; 
+   list-style: none;
+   display: inline-block;
+ }
+
+ /* FIN SECCION INSTITUCIONES CULTURALES*/
+
+ .font-azul {
+   color: var(--deep-blue);
+ }
+
+ #ubicacion-historia{
+  height: 600px;
+ }
+
+ #bandera-idioma-demografia{
+  height: 750px;
+  margin-top: 50px;
+ }
+
+ #instituciones-culturales{
+  height: 630px;
+ }
+
+ #geografia-clima{
+  height: 680px;
+  background-color: var(--light-blue);
+ }
+
+#laopera{
+  margin-top: 20px;
+}
+
+ .font-blanca-cent {
+   text-align: center;
+   color: #fff;
+ }
+ 
+ .columna-1, .columna-2 {
+   display: inline-block;
+   float: left;
+   width: 600px;
+   margin-bottom: 50px;
+}
+
+ .columna-2-banner {
+  display: inline-block;
+  float: left;
+  width: 525px;
+  height: 700px;
+  background-image: url("../imagenes/banner-azul.png");
+  background-repeat: no-repeat;
+  padding-left: 45px;
+  padding-right: 30px;
+}
+
+ .img-ubic-historia {
+   padding: 50px 50px 50px 30px;
+ }
+
+ .img-geografia {
+  padding: 50px 50px 50px 50px;
+}
+
+.strong-sin-estilos {
+  font-weight: normal;
+}
+
+#boton-volver-arriba {
+text-align: right;
+padding: 20px;
+margin-right: 0px;
+margin-bottom: 0px;
+
+}
+
+.h2-sin-estilo {
+  font-size: 18px;
+  padding: 0px;
+  text-align: right;
+}
