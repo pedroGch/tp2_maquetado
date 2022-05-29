@@ -428,3 +428,10 @@ margin-bottom: 0px;
   padding: 0px;
   text-align: right;
 }
+
+/*------------------------------------------ PAGINA DE CONTACTO ---------------------------------------------*/
+#seccion-contacto{
+  background-color: var(--light-blue);
+}
+
+/*------------------------------------------ FIN PAGINA DE CONTACTO ------------------------------------------*/
