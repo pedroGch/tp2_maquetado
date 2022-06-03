@@ -42,12 +42,31 @@
   <main>
     <section id="seccion-contacto" class="container-centrado">
       <h1>Contactate con nosotros</h1>
-      <form action="http://recursos.grodriguez.com.ar/FORM/" methods="post">
-        <input type="text" name="nombreUsuario" id="" required>
-        <input type="email" name="mail" id="" required>
-        <textarea name="mensaje" id="mensaje" cols="30" rows="10" required></textarea>
-        <input type="submit" value="Consultar">
-      </form>
+      <div class="container">
+        <div class="formBx">
+          <form action="http://recursos.grodriguez.com.ar/FORM/" methods="post">
+            <div class="inputBox">
+              <input type="text" required="required" name="nombre">
+              <span>Nombre completo</span>
+            </div>
+            <div class="inputBox">
+              <input type="email" required="required" name="email">
+              <span>Dirección de Email</span>
+            </div>
+            <div class="inputBox">
+              <textarea required="required" name="mensaje"></textarea>
+              <span>Dejanos tu mensaje...</span>
+            </div>
+            <div class="inputBox">
+              <input type="submit" value="Enviar">
+            </div>
+          </form>
+        </div>
+        <div class="imgBx">
+          <img src="./imagenes/girl.png" alt="a girl">
+        </div>
+      </div>
+      
     </section>
   </main>
   <footer>
