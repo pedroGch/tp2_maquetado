@@ -521,6 +521,25 @@ margin-bottom: 0px;
 .container .formBx form .inputBox textarea:valid{
   border-bottom-color: rgba(0, 47, 108, 0.8);
 }
+.container .inputMultiSelect{
+  margin-bottom: 40px;
+}
+.container .inputMultiSelect .inputCheck{
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.container .inputMultiSelect h2{
+  font-size: 25px;
+  padding: 0;
+  text-align: left;
+  margin-bottom: 25px;
+  color: var(--deep-blue)
+}
+.container .inputMultiSelect h2 input[type=checkbox]{
+  margin-bottom: 25px;
+}
 .container .imgBx{
   position: relative;
   width: 50%;
