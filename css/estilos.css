@@ -2,6 +2,9 @@
   --deep-blue: #002f6c;
   --blue: #01579b; 
   --light-blue: #bbdefb; 
+  --new-light-blue: #41e0df; 
+  --light-sand: #fff8e1;
+  --dark-sand: #ccc5af;
 }
 
 *{
@@ -21,7 +24,7 @@ html{
 header{
   width: 100%;
   height: 120px;
-  background-color: var(--deep-blue);
+  background-color: var(--new-light-blue);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left;
@@ -61,14 +64,14 @@ header nav ul{
 header nav ul li{
   list-style: none;
   margin-right: 15px;
-  color: #fff;
+  color: #000;
   margin-top: 15px;
   
 }
 
 .menu-link{
   text-decoration: none;
-  color: #fff;
+  color: #000;
 }
 
 header nav ul li:hover{
@@ -77,7 +80,7 @@ header nav ul li:hover{
 
 #sub-menu{
   position: absolute;
-  background-color: var(--deep-blue);
+  background-color: var(--new-light-blue);
   display: none;
 }
 
@@ -148,7 +151,7 @@ main p{
   width: 44%;
   height: 250px;
   margin-top: -13px;
-  color: var(--deep-blue);
+  color: #000;
   padding: 40px;
   text-align: center;
   font-weight: 600;
@@ -164,7 +167,7 @@ h3 {
   padding: 20px;
   font-size: 30px;
   text-align: center;
-  color: var(--deep-blue);
+  color: var(--new-light-blue);
 }
 
 .img-centrada{
@@ -185,7 +188,7 @@ figcaption{
 }
 
 section h1{
-  color: var(--deep-blue);
+  color: var(--new-light-blue);
 }
 
 #seccion-autores{
@@ -204,8 +207,8 @@ section h1{
 footer {
   width: 100%;
   height: 150px;
-  background-color: var(--blue);
-  color: #fff;
+  background-color: var(--light-sand);
+  color: var(--light-sand);
   position: absolute;
   
 }
@@ -252,7 +255,7 @@ footer p, ul {
 
  .h3-centrado {
   text-align: center;
-  color: var(--deep-blue);
+  color: var(--new-light-blue);
   padding-top: 30px;
 }
 
@@ -355,7 +358,7 @@ footer p, ul {
  /* FIN SECCION INSTITUCIONES CULTURALES*/
 
  .font-azul {
-   color: var(--deep-blue);
+   color: var(--new-light-blue);
  }
 
  #ubicacion-historia{
@@ -484,7 +487,7 @@ margin-bottom: 0px;
   margin-top: -10px;
   width: 120px;
   cursor: pointer;
-  background: var(--deep-blue);
+  background: var(--new-light-blue);
   color: #fff;
   font-size: 18px;
   font-weight: 400;
@@ -535,7 +538,7 @@ margin-bottom: 0px;
   padding: 0;
   text-align: left;
   margin-bottom: 25px;
-  color: var(--deep-blue)
+  color: var(--new-light-blue)
 }
 .container .inputMultiSelect h2 input[type=checkbox]{
   margin-bottom: 25px;
@@ -553,7 +556,7 @@ margin-bottom: 0px;
   left: 0;
   width: 100%;
   height: 100%;
-  background: var(--deep-blue);
+  background: var(--new-light-blue);
   transform-origin: bottom;
   transform: skew(-25deg) translateX(10%);
 }
