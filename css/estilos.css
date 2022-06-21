@@ -118,12 +118,16 @@ main p{
 }
 
 #inicio{
-  width: 100vw;
+  width: 1200;
   background-image: url("../imagenes/fondo-inicio.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 600px;
+  height: 800px;
+}
+
+.img-home-superpuesta {
+  margin-top: -120px;
 }
 
 .container-centrado{
@@ -138,20 +142,28 @@ main p{
   padding-top: 5%;
 }
 
-#welcome{
+.shadow-light-blue {
+  box-shadow: 20px 20px 5px 0px rgba(65,224,223,1);
+  -webkit-box-shadow: 20px 20px 5px 0px rgba(65,224,223,1);
+  -moz-box-shadow: 20px 20px 5px 0px rgba(65,224,223,1);
+
+}
+
+/*#welcome{
   color: #fff;
   background:rgba(0, 47, 108, 1);
   clip-path: polygon(8% 0, 100% 0%, 94% 100%, 0% 100%);
   padding-left: 50px;
   width: 50%;
   z-index: -1;
-}
+}*/
 
 #principal{
   color: #fff;
   margin-left: -60px;
   text-align: center;
   padding: 0;
+  font-size: 0px;
 }
 
 #texto-principal{
@@ -170,6 +182,12 @@ h1, h2{
   text-align: center;
 }
 
+h2 {
+  font-weight: 400;
+  font-size: 66px;
+  text-align: left;
+  line-height: 65px;}
+
 h3 {
   padding: 20px;
   font-size: 30px;
@@ -184,6 +202,27 @@ h3 {
   padding-bottom: 30px;
 }
 
+.boton {
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 18px;
+    padding-top: 20px;
+    width: 147px;
+    height: 48px;
+    display: inline-block;
+    background-image: url(../imagenes/fondo-boton.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+  
+}
+
+.boton a {
+  text-decoration: none !important; 
+  color: #000;
+  font-weight: 700;
+}
 figcaption{
   font-weight: 400;
   text-align: center;
@@ -197,6 +236,42 @@ figcaption{
 section h1{
   color: var(--new-light-blue);
 }
+
+#fondo-mapa{
+  background-image: url(../imagenes/mapa-australia.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 383px;
+  height: 383px;
+padding-top: 100px;
+padding-left: 60px;
+
+}
+
+#turismo-home{
+  background-image: url(../imagenes/fondo-olas.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1200px;
+  height: 772px;
+  padding-top: 800px;
+  margin: 0 auto;
+ 
+
+}
+
+.wrap-blanco {
+  background-color: #FFF;
+  width: 1000px;
+  height: 400px;
+  margin: auto;
+}
+
+.wrap-blanco div {
+  width: 500px;
+  display: inline-block;
+  float: left;
+ }
 
 #seccion-autores{
   margin-top: 50px;
