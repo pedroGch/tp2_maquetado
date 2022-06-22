@@ -583,3 +583,50 @@ margin-bottom: 0px;
   max-height: 95%;
 }
 /*------------------------------------------ FIN PAGINA DE CONTACTO ------------------------------------------*/
+/*-----------------------------------------          TURISMO        ------------------------------------------*/
+.card{
+  width: 100%; 
+  margin-top: 50px;
+}
+.card .card-body{
+  display: flex;
+}
+.card .card-body .card-text{
+  width: 50%;
+}
+.card .card-body .card-image{
+  width: 50%; 
+  box-shadow: 27px 26px 0px -1px #41e0df;
+  -webkit-box-shadow: 27px 26px 0px -1px #41e0df;
+  -moz-box-shadow: 27px 26px 0px -1px #41e0df;
+}
+.inverse{
+  width: 50%; 
+  box-shadow: -27px 26px 0px -1px #41e0df !important;
+  -webkit-box-shadow: -27px 26px 0px -1px #41e0df !important;
+  -moz-box-shadow: -27px 26px 0px -1px #41e0df !important;
+}
+.card .card-body .card-image img{
+  width: 100%;
+  height: 100%;
+}
+
+.card .card-footer{
+  margin-left: 20px;
+}
+.card-footer button{
+  width: 120px;
+  height: 50px;
+  font-weight: 700;
+  background: #41e0df;
+  border-radius: 42px;
+  border: none;
+}
+.card-footer button a{
+  text-decoration: none;
+}
+#BlueMountain:nth-child(3){
+  margin-bottom: 50px;
+}
+
+/*-----------------------------------------          TURISMO, FIN   ------------------------------------------*/
