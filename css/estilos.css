@@ -143,9 +143,9 @@ main p{
 }
 
 .shadow-light-blue {
-  box-shadow: 20px 20px 5px 0px rgba(65,224,223,1);
-  -webkit-box-shadow: 20px 20px 5px 0px rgba(65,224,223,1);
-  -moz-box-shadow: 20px 20px 5px 0px rgba(65,224,223,1);
+  box-shadow: 27px 26px 0px -1px #41e0df;
+  -webkit-box-shadow: 27px 26px 0px -1px #41e0df;
+  -moz-box-shadow: 27px 26px 0px -1px #41e0df;
 
 }
 
@@ -214,8 +214,6 @@ h3 {
     background-image: url(../imagenes/fondo-boton.png);
     background-repeat: no-repeat;
     background-position: center;
-
-  
 }
 
 .boton a {
@@ -223,6 +221,11 @@ h3 {
   color: #000;
   font-weight: 700;
 }
+
+#turismo-home .wrap-blanco div .boton {
+  margin-left: -155px;
+}
+
 figcaption{
   font-weight: 400;
   text-align: center;
@@ -233,9 +236,6 @@ figcaption{
   width: 700px;
 }
 
-section h1{
-  color: var(--new-light-blue);
-}
 
 #fondo-mapa{
   background-image: url(../imagenes/mapa-australia.png);
@@ -518,7 +518,7 @@ footer p, ul {
  }
 
  #bandera-idioma-demografia{
-  height: 750px;
+  height: 630px;
   margin-top: 50px;
  }
 
@@ -528,16 +528,21 @@ footer p, ul {
 
  #geografia-clima{
   height: 680px;
-  background-color: var(--light-blue);
+  background-color: var(--light-sand);
+ }
+
+ #geografia-clima .columna-2 blockquote, #geografia-clima .columna-2 p, #bandera-idioma-demografia .columna-1 p {
+  width: 550px;
+
  }
 
 #laopera{
   margin-top: 20px;
 }
 
- .font-blanca-cent {
+ .font-cent {
    text-align: center;
-   color: #fff;
+   
  }
  
  .columna-1, .columna-2 {
@@ -547,16 +552,6 @@ footer p, ul {
    margin-bottom: 50px;
 }
 
- .columna-2-banner {
-  display: inline-block;
-  float: left;
-  width: 525px;
-  height: 700px;
-  background-image: url("../imagenes/banner-azul.png");
-  background-repeat: no-repeat;
-  padding-left: 45px;
-  padding-right: 30px;
-}
 
  .img-ubic-historia {
    padding: 50px 50px 50px 30px;
@@ -593,6 +588,23 @@ margin-bottom: 0px;
   margin-top: -120px;
   visibility: hidden;
 }*/
+
+
+/*------------------------------------- INICIO PAGINA DE INFORMACION ----------------------------------------*/
+#img-final-info {
+  background-image: url(../imagenes/img-final-info.jpg);
+  height: 493px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 89px;
+  margin-top: -100px;
+}
+
+/*------------------------------------------ FIN DE INFORMACION ---------------------------------------------*/
+
+
+
 /*------------------------------------------ PAGINA DE CONTACTO ---------------------------------------------*/
 #seccion-contacto{
   background-color: var(--light-blue);
