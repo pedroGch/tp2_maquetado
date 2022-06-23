@@ -85,18 +85,18 @@ header nav ul li:hover{
   text-decoration: underline;
 }
 
-#sub-menu{
+.sub-menu{
   position: absolute;
   background-color: var(--new-light-blue);
   display: none;
 }
 
-#sub-menu li a {
+.sub-menu li a {
   display: block;
   padding: 10px;
 }
 
-.menu li:hover #sub-menu{
+.menu li:hover .sub-menu{
   display: block;
 }
 
@@ -178,13 +178,13 @@ main p{
 
 h1, h2{
   padding: 40px 20px 20px 20px;
-  font-size: 40px;
+  font-size: 60px;
   text-align: center;
 }
 
 h2 {
   font-weight: 400;
-  font-size: 66px;
+  font-size: 50px;
   text-align: left;
   line-height: 65px;}
 
@@ -718,6 +718,9 @@ margin-bottom: 0px;
 }
 /*------------------------------------------ FIN PAGINA DE CONTACTO ------------------------------------------*/
 /*-----------------------------------------          TURISMO        ------------------------------------------*/
+.mb-10{
+  margin-bottom: 5%;
+}
 .card{
   width: 100%; 
   margin-top: 50px;
@@ -730,12 +733,14 @@ margin-bottom: 0px;
 }
 .card .card-body .card-image{
   width: 50%; 
+  height: 315px;
   box-shadow: 27px 26px 0px -1px #41e0df;
   -webkit-box-shadow: 27px 26px 0px -1px #41e0df;
   -moz-box-shadow: 27px 26px 0px -1px #41e0df;
 }
 .inverse{
   width: 50%; 
+  height: 315px;
   box-shadow: -27px 26px 0px -1px #41e0df !important;
   -webkit-box-shadow: -27px 26px 0px -1px #41e0df !important;
   -moz-box-shadow: -27px 26px 0px -1px #41e0df !important;
@@ -761,6 +766,10 @@ margin-bottom: 0px;
 }
 #BlueMountain:nth-child(3){
   margin-bottom: 50px;
+}
+
+.card-image iframe{
+  border-width: 0;
 }
 
 /*-----------------------------------------          TURISMO, FIN   ------------------------------------------*/
