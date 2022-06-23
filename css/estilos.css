@@ -296,18 +296,27 @@ footer {
   
 }
 
-.linea-footer{
+.linea-footer1{
  background-image: url(../imagenes/linea_footer.png);
  background-repeat: repeat-x;
  height: 3px;
- margin-top: 200px;
+ margin-top: -90px;
 }
+
+.linea-footer2{
+  background-image: url(../imagenes/linea_footer.png);
+  background-repeat: repeat-x;
+  height: 3px;
+  margin-top: 15px;
+ }
+
 #redes {
-  margin-left: 43%;
+  margin-left: 38%;
 }
 
 #redes li{
 	display: inline-block;
+  padding: 0px 10px 0px 10px;
 }
 
 #redes li a{
@@ -381,13 +390,14 @@ footer p, ul {
  #alineado-derecha {
    float: right;
    display: inline-block;
-   padding: 20px;
+   padding: 30px;
    text-align: right;
  }
 
  #datos-tp {
    display: inline-block;
    float: left;
+   margin: 0 auto;
    padding: 30px;
   
  }
@@ -562,7 +572,7 @@ footer p, ul {
 
 #boton-volver-arriba {
 text-align: right;
-padding: 20px;
+padding: 20px 20px 110px 20px;
 margin-right: 0px;
 margin-bottom: 0px;
 
@@ -572,6 +582,7 @@ margin-bottom: 0px;
   font-size: 18px;
   padding: 0px;
   text-align: right;
+  line-height: 25px;
 }
 /*BUSCAR CLASE 20 2-06
 
