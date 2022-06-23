@@ -491,16 +491,6 @@ margin-bottom: 0px;
   text-align: right;
   line-height: 25px;
 }
-/*BUSCAR CLASE 20 2-06
-
-#instituciones-culturales::before,#geografia-clima::before,#bandera-idioma-demografia::before{
-  content: "";
-  display: block;
-  height: 120px;
-  margin-top: -120px;
-  visibility: hidden;
-}*/
-
 
 /*------------------------------------- INICIO PAGINA DE INFORMACION ----------------------------------------*/
 #img-final-info {
@@ -719,8 +709,29 @@ margin-bottom: 0px;
   margin-bottom: 50px;
 }
 
+
+
+
+
 .card-image iframe{
   border-width: 0;
 }
 
 /*-----------------------------------------          TURISMO, FIN   ------------------------------------------*/
+
+
+#vivi-sydney {
+  margin-bottom: 0;
+}
+
+#BlueMountain {
+  margin-top: 0;
+}
+
+#BlueMountain::before, #vivid-sydney::before, #Ku-ring-gai::before, #manly::before, #laopera::before, #conoce-sidney::before{
+  content: "";
+  height: 120px;
+  display: block;
+  visibility: hidden;
+  margin-top: -120px;
+}
