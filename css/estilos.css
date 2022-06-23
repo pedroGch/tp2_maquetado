@@ -605,7 +605,6 @@ margin-bottom: 0px;
   padding: 0;
   text-align: left;
   margin-bottom: 25px;
-  color: var(--new-light-blue)
 }
 .container .inputMultiSelect h2 input[type=checkbox]{
   margin-bottom: 25px;
@@ -635,7 +634,10 @@ margin-bottom: 0px;
 }
 /*------------------------------------------ FIN PAGINA DE CONTACTO ------------------------------------------*/
 /*-----------------------------------------          TURISMO        ------------------------------------------*/
-.mb-10{
+.mb-90{
+  margin-bottom:90px;
+}
+.mb-5{
   margin-bottom: 5%;
 }
 .card{
