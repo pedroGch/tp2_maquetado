@@ -103,6 +103,7 @@ header nav ul li:hover{
 
 main{
   width: 100vw;
+  min-width: 1200px;
   background-color: #FFF;
   align-items: center;
   justify-content: center;
