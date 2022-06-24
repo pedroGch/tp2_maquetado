@@ -425,12 +425,12 @@ footer p, ul {
    color: var(--new-light-blue);
  }
 
- #ubicacion-historia{
+ /* #ubicacion-historia{
   height: 600px;
- }
+ } */
 
  #bandera-idioma-demografia{
-  height: 630px;
+  /* height: 630px; */
   margin-top: 50px;
  }
 
@@ -439,7 +439,7 @@ footer p, ul {
  }
 
  #geografia-clima{
-  height: 750px;
+  overflow: auto;
   background-color: var(--light-sand);
  }
 
@@ -728,7 +728,15 @@ margin-bottom: 0px;
   margin-top: 0;
 }
 
-#BlueMountain::before, #vivid-sydney::before, #Ku-ring-gai::before, #manly::before, #laopera::before, #conoce-sidney::before{
+#ubicacion-historia::before,
+#geografia-clima::before,
+#bandera-idioma-demografia::before,
+#BlueMountain::before, 
+#vivid-sydney::before, 
+#Ku-ring-gai::before, 
+#manly::before, 
+#laopera::before, 
+#conoce-sidney::before{
   content: "";
   height: 120px;
   display: block;
