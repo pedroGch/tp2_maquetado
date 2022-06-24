@@ -582,7 +582,7 @@ margin-bottom: 0px;
 }
 
 .container .formBx form .inputBox input[type="submit"]:focus{
-  background: var(--blue);;
+  background: var(--blue);
   color: #fff;
 }
 .container .formBx form .inputBox span{
