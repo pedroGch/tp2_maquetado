@@ -74,6 +74,7 @@ header nav ul li{
   
 }
 
+
 .menu-link{
   text-decoration: none;
   color: #000;
@@ -84,7 +85,18 @@ header nav ul li{
 
 header nav ul li:hover{
   text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 2px;
+ 
 }
+
+.nav-activo {
+  text-decoration: underline ;
+  text-decoration-thickness: 3px ;
+  text-underline-offset: 2px ;
+  color: rgb(255, 255, 255) ;
+}
+ 
 
 .sub-menu{
   position: absolute;
