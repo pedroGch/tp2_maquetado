@@ -132,7 +132,7 @@ main p{
 
 #inicio{
   width: 1200;
-  background-image: url("../imagenes/fondo-inicio.jpg");
+  background-image: url("../imagenes/desktop/fondo-inicio.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -243,7 +243,7 @@ figcaption{
 
 
 #fondo-mapa{
-  background-image: url(../imagenes/mapa-australia.png);
+  background-image: url(../imagenes/desktop/mapa-australia.png);
   background-repeat: no-repeat;
   background-position: center;
   width: 383px;
@@ -253,7 +253,7 @@ figcaption{
 }
 
 #turismo-home{
-  background-image: url(../imagenes/fondo-olas.jpg);
+  background-image: url(../imagenes/desktop/fondo-olas.jpg);
   background-repeat: no-repeat;
   background-position: center;
   width: 1200px;
@@ -494,7 +494,7 @@ margin-bottom: 0px;
 
 /*------------------------------------- INICIO PAGINA DE INFORMACION ----------------------------------------*/
 #img-final-info {
-  background-image: url(../imagenes/img-final-info.jpg);
+  background-image: url(../imagenes/desktop/img-final-info.jpg);
   height: 493px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -787,7 +787,7 @@ ol li a {
 /*--------------------------------------          GRACIAS, INICIO   ------------------------------------------*/
 #gracias {
   width: 1200;
-  background-image: url("../imagenes/gracias-background.jpg");
+  background-image: url("../imagenes/desktop/gracias-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
