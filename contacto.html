@@ -59,7 +59,7 @@
       <h1>Contactate con nosotros</h1>
       <div class="container">
         <div class="formBx">
-          <form action="http://recursos.grodriguez.com.ar/FORM/"  target="_blank" method="post">
+          <form action="procesarFormulario.php"  target="_blank" method="post">
             <div class="inputBox">
               <input type="text" required="required" autocomplete="off" name="nombre" />
               <span>Nombre completo</span>
@@ -71,6 +71,12 @@
             <div class="inputBox">
               <textarea required="required" name="mensaje"></textarea>
               <span>Dejanos tu mensaje...</span>
+            </div>
+            <div class="inputMultiSelect">  
+              <div class="certificadoFile"> 
+                <label for="certificado">Agregar certificado de vacunación:</label>
+                <input type="file" id="certificado" name="certificado" accept="image/png, image/jpeg">           
+              </div>  
             </div>
             <div class="inputMultiSelect">
               <h2>¿Deseas recibir Información?</h2>  
