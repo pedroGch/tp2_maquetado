@@ -1,4 +1,38 @@
 /*-------------------------------------      HEADER, INICIO   ----------------------------------------*/
+
+#logo {
+    padding: 0px;
+    margin-left: 10%;
+}
+
+nav {
+    background-image: url(../imagenes/mobile/menu_lines_hamburger_icon.png);
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 35%;
+}
+
+.menu {
+    display: none;
+    margin-top: 87px;
+    background-color: var(--new-light-blue);
+}
+
+nav:checked .menu{
+    display: block;
+}
+
+header nav ul li{
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+header nav ul:last-child{
+    padding-bottom: 10px;
+}
+
 /*-------------------------------------      HEADER, FIN      ----------------------------------------*/
 
 /*-----------------------------      PROPIEDADES GENERALES, INICIO    --------------------------------*/
@@ -35,7 +69,7 @@ main{
 
 #gracias {
     width: 480px;
-    background-image: url("../imagenes/gracias-background-mb.jpg");
+    background-image: url("../imagenes/mobile/gracias-background-mb.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
