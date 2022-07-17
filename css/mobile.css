@@ -106,4 +106,18 @@ main{
 
 
 /*-------------------------------------      FOOTER, INICIO   ----------------------------------------*/
+
+#logo-davinci {
+    display: inline-block;
+      background: url(../imagenes/logo-davinci.png);
+    width: 300px;
+    height: 105px;
+    font-size:0px;
+    float: left;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  
 /*-------------------------------------      FOOTER, FIN      ----------------------------------------*/
