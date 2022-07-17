@@ -47,6 +47,11 @@ main{
     background-position: center;
     overflow: auto;
   }
+
+h2 {
+    font-size: 40px;
+    line-height: 55px;
+}
 /*------------------------------      PROPIEDADES GENERALES, FIN     ---------------------------------*/
 
 /*-------------------------------------      HOME, INICIO     ----------------------------------------*/
@@ -57,7 +62,35 @@ main{
     background-size: cover;
     background-position: center center;
     height: 600px;
-  }
+}
+
+#maps iframe:nth-of-type(2){
+    display: none;
+}
+
+.maps-responsive {
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+}
+
+.maps-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
 /*-------------------------------------      HOME, FIN        ----------------------------------------*/
 
 
@@ -105,19 +138,39 @@ main{
 /*--------------------------------------     GRACIAS, FIN   ------------------------------------------*/
 
 
+
+
+
 /*-------------------------------------      FOOTER, INICIO   ----------------------------------------*/
 
+footer {
+    height: 452px;
+}
 #logo-davinci {
     display: inline-block;
-      background: url(../imagenes/logo-davinci.png);
+    background: url(../imagenes/logo-davinci.png);
     width: 300px;
     height: 105px;
     font-size:0px;
-    float: left;
-    padding: 20px;
+    padding-left: 143px;
     background-repeat: no-repeat;
     background-position: center;
   }
 
+  #redes {
+    margin-left: 4%;
+  }
+
+  #datos-tp ul li {
+    text-align: center;
+    font-size: 13px;
+  }
+
+  #alineado-derecha {
+    text-align: center;
+    font-size: 13px;
+    padding-left: 30%;
+    float: left;
+  }
   
 /*-------------------------------------      FOOTER, FIN      ----------------------------------------*/
