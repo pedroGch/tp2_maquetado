@@ -1,3 +1,40 @@
+/*-----------------------------      PROPIEDADES GENERALES, INICIO    --------------------------------*/
+body {
+    width: 480px;
+    overflow-x: hidden;
+}
+
+main{
+    width: 100vw;
+    min-width: 480px;
+    background-color: #FFF;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: auto;
+  }
+
+h2 {
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.columna-1, .columna-2 {
+    display: inherit;
+    float: none;
+    width: 480px;
+
+}
+
+.container-centrado{
+    width: 480px;
+}
+
+/*------------------------------      PROPIEDADES GENERALES, FIN     ---------------------------------*/
+
+
 /*-------------------------------------      HEADER, INICIO   ----------------------------------------*/
 
 #logo {
@@ -35,24 +72,7 @@ header nav ul:last-child{
 
 /*-------------------------------------      HEADER, FIN      ----------------------------------------*/
 
-/*-----------------------------      PROPIEDADES GENERALES, INICIO    --------------------------------*/
-main{
-    width: 100vw;
-    min-width: 480px;
-    background-color: #FFF;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    overflow: auto;
-  }
 
-h2 {
-    font-size: 40px;
-    line-height: 55px;
-}
-/*------------------------------      PROPIEDADES GENERALES, FIN     ---------------------------------*/
 
 /*-------------------------------------      HOME, INICIO     ----------------------------------------*/
 #inicio{
@@ -64,33 +84,49 @@ h2 {
     height: 600px;
 }
 
-#maps iframe:nth-of-type(2){
+.img-home-superpuesta {
+    padding-left: 26px;
+    width: 404px;
+    margin-top: 32px;
+}
+
+#turismo-home{
+    background-image: url(../imagenes/mobile/fondo-olas-mb.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 480px;
+   
+  }
+
+.wrap-blanco {
+    background-color: none;
+    width: 480px;
+    height: 400px;
+}
+
+#fondo-mapa {
     display: none;
 }
 
+#maps iframe:nth-of-type(2){
+    display: none;
+}
+/*
 .maps-responsive {
     overflow:hidden;
-
     padding-bottom:56.25%;
-
     position:relative;
-
     height:0;
 }
 
 .maps-responsive iframe{
-
     left:0;
-
     top:0;
-
     height:100%;
-
-    width:100%;
-
+    width: 100%;
     position:absolute;
 
-}
+}*/
 /*-------------------------------------      HOME, FIN        ----------------------------------------*/
 
 
