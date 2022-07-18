@@ -57,7 +57,7 @@ nav {
     background-color: var(--new-light-blue);
 }
 
-nav:checked .menu{
+nav:hover .menu{
     display: block;
 }
 
@@ -99,7 +99,10 @@ header nav ul:last-child{
   }
 
 .wrap-blanco {
-    background-color: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    background-color: #fff;
     width: 480px;
     height: 400px;
 }
