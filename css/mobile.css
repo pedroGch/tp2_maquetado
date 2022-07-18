@@ -1,7 +1,7 @@
 /*-----------------------------      PROPIEDADES GENERALES, INICIO    --------------------------------*/
 body {
     width: 480px;
-    overflow-x: hidden;
+    
 }
 
 main{
@@ -15,12 +15,17 @@ main{
     background-position: center;
     overflow: auto;
   }
-
-h2 {
-    font-size: 40px;
-    line-height: 55px;
+h1{
+  font-size: 34px;
 }
 
+h2 {
+    font-size: 21px;
+    line-height: 55px;
+}
+p{
+  font-size: 13px;
+}
 .columna-1, .columna-2 {
     display: inherit;
     float: none;
