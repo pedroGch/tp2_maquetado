@@ -181,6 +181,23 @@ header nav ul:last-child{
 
 
 /*-------------------------------------      CONTACTO, INICIO   --------------------------------------*/
+#seccion-contacto{
+  margin-top: 0px;
+  height: 100vh;
+}
+.container .formBx{
+  width: 100%;
+  padding: 0 50px;
+}
+.container .formBx form{
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  padding: 0;
+}
+.container .imgBx{
+  display: none;
+}
 /*-------------------------------------      CONTACTO, FIN    ----------------------------------------*/
 
 
@@ -224,6 +241,7 @@ header nav ul:last-child{
 footer {
     height: 452px;
 }
+
 #logo-davinci {
     display: inline-block;
     background: url(../imagenes/logo-davinci.png);
