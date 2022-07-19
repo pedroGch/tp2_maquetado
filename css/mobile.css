@@ -77,14 +77,15 @@ nav {
 .menu {
     display: none;
     height: 50vh;
-    margin-left: -50px;
+    margin-left: -185px;
     background-color: var(--new-light-blue);
 }
 
 
 header nav ul li{
-    padding-left: 10px;
-    font-size: 15px;
+  padding-left: 10px;
+  font-size: 15px;
+  text-align: right;
 }
 
 header nav ul li:nth-child(1){
@@ -94,6 +95,10 @@ header nav ul li:nth-child(1){
 header nav ul:last-child{
     padding-bottom: 10px;
 }
+
+/*.op-info::before{
+  content: '\273f';
+}*/
 .toggle{
     position: relative;
     width: 70px;
