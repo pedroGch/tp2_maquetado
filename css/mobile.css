@@ -32,6 +32,10 @@ h2 {
     width: 480px;
 }
 
+.img-centrada-mobile {
+  margin-left: 3%;
+}
+
 /*------------------------------      PROPIEDADES GENERALES, FIN     ---------------------------------*/
 
 
@@ -173,6 +177,34 @@ header nav ul:last-child{
 
 
 /*-------------------------------------      INFORMACION, INICIO  ------------------------------------*/
+
+.img-ubic-historia {
+  padding: 0;
+  margin: 0;
+}
+
+.img-geografia {
+  margin: 0px ;
+  padding: 20px 0px 0px 0px;
+}
+
+#geografia-clima .columna-2 blockquote, #geografia-clima .columna-2 p, #bandera-idioma-demografia .columna-1 p {
+  width: 90vw;
+}
+
+.img-sombra-mobile {
+  padding-left: 26px;
+}
+
+#img-final-info {
+  background-image: url(../imagenes/mobile/img-final-info-mb.jpg);
+  height: 139px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
+}
+
 /*-------------------------------------      INFORMACION, FIN  ---------------------------------------*/
 
 
