@@ -1,26 +1,31 @@
 /*-----------------------------      PROPIEDADES GENERALES, INICIO    --------------------------------*/
 body {
     width: 480px;
-    overflow-x: hidden;
+    
 }
 
 main{
     width: 100vw;
     min-width: 480px;
     background-color: #FFF;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
     margin: 0 auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    overflow: auto;
+    /* background-repeat: no-repeat;
+    background-position: center; 
+    overflow: auto; */
   }
-
-h2 {
-    font-size: 40px;
-    line-height: 55px;
+h1{
+  font-size: 34px;
 }
 
+h2 {
+    font-size: 21px;
+    line-height: 55px;
+}
+p{
+  font-size: 13px;
+}
 .columna-1, .columna-2 {
     display: inherit;
     float: none;
@@ -213,6 +218,23 @@ header nav ul:last-child{
 
 
 /*-------------------------------------      CONTACTO, INICIO   --------------------------------------*/
+#seccion-contacto{
+  margin-top: 0px;
+  height: 100vh;
+}
+.container .formBx{
+  width: 100%;
+  padding: 0 50px;
+}
+.container .formBx form{
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  padding: 0;
+}
+.container .imgBx{
+  display: none;
+}
 /*-------------------------------------      CONTACTO, FIN    ----------------------------------------*/
 
 
@@ -232,7 +254,7 @@ header nav ul:last-child{
     color: #FFF;
     text-align: center;
     text-shadow: 4px 2px #000;
-    padding: 100px;
+    padding: 90px;
     background-color: rgba(255, 255, 255, 0.1);
     width: 300px;
     height: 250px;
@@ -256,6 +278,7 @@ header nav ul:last-child{
 footer {
     height: 452px;
 }
+
 #logo-davinci {
     display: inline-block;
     background: url(../imagenes/logo-davinci.png);
