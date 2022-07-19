@@ -16,16 +16,23 @@ main{
     overflow: auto; */
   }
 h1{
-  font-size: 34px;
+  font-size: 36px;
 }
 
 h2 {
-    font-size: 21px;
+    font-size: 23px;
     line-height: 55px;
+    font-weight: 600;
+    padding: 0px 20px 20px 20px;
 }
+
 p{
-  font-size: 13px;
+  font-size: 15px;
+  padding: 5px 20px 0 20px;
 }
+
+
+
 .columna-1, .columna-2 {
     display: inherit;
     float: none;
@@ -39,6 +46,16 @@ p{
 
 .img-centrada-mobile {
   margin-left: 3%;
+}
+
+.shadow-light-blue-mb {
+  box-shadow: 27px 26px 0px -1px #41e0df;
+  -webkit-box-shadow: 27px 26px 0px -1px #41e0df;
+  -moz-box-shadow: 27px 26px 0px -1px #41e0df;
+}
+
+.display-none-mobile {
+  display: none;
 }
 
 /*------------------------------      PROPIEDADES GENERALES, FIN     ---------------------------------*/
@@ -138,11 +155,20 @@ header nav ul:last-child{
     margin-top: 32px;
 }
 
+.fondo-olas {
+  background-image: url(../imagenes/mobile/fondo-olas-mb.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 480px;
+  height: 440px;
+}
+
 #turismo-home{
-    background-image: url(../imagenes/mobile/fondo-olas-mb.jpg);
+    background-image: none;
     background-repeat: no-repeat;
     background-position: center;
     width: 480px;
+    padding-top: 10px;
    
   }
 
