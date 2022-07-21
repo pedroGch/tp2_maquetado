@@ -227,6 +227,21 @@ header nav ul:last-child{
 #mapa{
   width: 480px;
 }
+
+#espectacular-sidney{
+  height: 960px;
+  margin-top: 130px;
+  margin-bottom: 13px;
+}
+
+#espectacular-sidney img {
+ margin-left: -20px;
+}
+
+#turismo-home img {
+  margin-top: 20px;
+}
+
 /*-------------------------------------      HOME, FIN        ----------------------------------------*/
 
 
