@@ -6,9 +6,9 @@ menutoggle.onclick =  function(){
   menu.classList.toggle('mostrar');
   
 }
-let opMenuInfo = document.querySelector('.op-info');
-opMenuInfo.onclick= function(){
-  $(".sub-menu-info").toggle();
+// let opMenuInfo = document.querySelector('.op-info');
+// opMenuInfo.onclick= function(){
+//   $(".sub-menu-info").toggle();
 
-}
+// }
 
