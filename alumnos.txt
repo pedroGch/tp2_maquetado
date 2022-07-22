@@ -1,0 +1,7 @@
+Apellido y Nombre: Gonzalez Chavez Pedro
+Edad: 32 años
+Email: pedro.gonzalez@davinci.edu.ar
+
+Apellido y Nombre: Scotto Rocío Belén
+Edad: 32 años
+Email: rocio.scotto@davinci.edu.ar
