@@ -278,10 +278,31 @@ header nav ul:last-child{
 
 
 /*-------------------------------------      TURISMO, INICIO  ----------------------------------------*/
-
+.video{
+  width: 475px;
+}
+.card .card-body {
+  display: block;
+  margin-bottom: 37px;
+}
 .card .card-body .card-text{
   display: block;
   width: 100%;
+}
+
+.card .card-body .card-image {
+  width: 440px;
+  height: 337px;
+  box-shadow: 14px 13px 0px -1px #41e0df;
+  -webkit-box-shadow: 14px 13px 0px -1px #41e0df;
+  -moz-box-shadow: 14px 13px 0px -1px #41e0df;
+  margin: 0 auto;
+}
+
+.inverse{
+  box-shadow: 14px 13px 0px -1px #41e0df;
+  -webkit-box-shadow: 14px 13px 0px -1px #41e0df;
+  -moz-box-shadow: 14px 13px 0px -1px #41e0df;
 }
 
 .carousel *, .carousel *:before, .carousel *:after {
@@ -299,7 +320,15 @@ display: inline-block;
 width: 460px;
 margin-left: 12px;
 }
-
+.video-parque{
+  width: 460px;
+  box-shadow: -13px 13px 0px -1px #41e0df;
+  -webkit-box-shadow: -13px 13px 0px -1px #41e0df;
+  -moz-box-shadow: -13px 13px 0px -1px #41e0df;
+}
+.mapa-parque{
+  width: 475px;
+}
 /*-------------------------------------      TURISMO, FIN     ----------------------------------------*/
 
 
