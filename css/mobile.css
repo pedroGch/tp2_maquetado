@@ -63,6 +63,23 @@ p{
   width: 460px;
 }
 
+.boton, .boton-inverse {
+  text-transform: uppercase;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 18px;
+  padding-top: 20px;
+  margin-left: 0px;
+  margin-top: -80px;
+  width: 147px;
+  height: 48px;
+  display: inline-block;
+  background-image: url(../imagenes/fondo-boton.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /*------------------------------      PROPIEDADES GENERALES, FIN     ---------------------------------*/
 
 
@@ -163,6 +180,14 @@ header nav ul:last-child{
     background-size: cover;
     background-position: center center;
     height: 600px;
+}
+
+.mt-5{
+  margin-top: -5px ;
+}
+
+.ml-18 {
+  margin-left: 18px;
 }
 
 .img-home-superpuesta {
@@ -330,6 +355,49 @@ margin-left: 12px;
   width: 475px;
 }
 /*-------------------------------------      TURISMO, FIN     ----------------------------------------*/
+
+/*-----------------------------------      VIVID SYDNEY, INICIO     ---------------------------------------*/
+
+#inicio-vivid{
+  width: 100vw;
+  background-image: url("../imagenes/mobile/fondo-vivid-sydney-mb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 600px;
+}
+
+#inicio-vivid h1 {
+  font-size: 0px;
+}
+
+.h2-mobile-mt20 {
+  margin-top: 20px;
+}
+
+#primer-texto-vivid p:nth-of-type(2){
+  margin-bottom: 15px;
+}
+
+.video {
+  width: 100%;
+}
+
+.h2-card-margin {
+  margin-top: 28px;
+}
+
+#img-final-vivid {
+  background-image: url(../imagenes/mobile/img-final-vivid-mb.jpg);
+  height: 150px;
+  margin-top: -170px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
+}
+
+/*-------------------------------------      VIVID SYDNEY, FIN     ----------------------------------------*/
 
 
 /*-------------------------------------      CONTACTO, INICIO   --------------------------------------*/
