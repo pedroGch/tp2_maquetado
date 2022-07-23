@@ -53,7 +53,7 @@ p{
   box-shadow: 27px 26px 0px -1px #41e0df;
   -webkit-box-shadow: 27px 26px 0px -1px #41e0df;
   -moz-box-shadow: 27px 26px 0px -1px #41e0df;
-}
+  -o-box-shadow: 27px 26px 0px -1px #41e0df;
 
 .display-none-mobile {
   display: none;
@@ -217,6 +217,7 @@ header nav ul:last-child{
     box-shadow: none;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
+    -o-box-shadow: none;
     background-color: #fff;
     width: 480px;
     height: 400px;
@@ -321,6 +322,7 @@ header nav ul:last-child{
   box-shadow: 14px 13px 0px -1px #41e0df;
   -webkit-box-shadow: 14px 13px 0px -1px #41e0df;
   -moz-box-shadow: 14px 13px 0px -1px #41e0df;
+  -o-box-shadow: 14px 13px 0px -1px #41e0df;
   margin: 0 auto;
 }
 
@@ -328,11 +330,13 @@ header nav ul:last-child{
   box-shadow: 14px 13px 0px -1px #41e0df;
   -webkit-box-shadow: 14px 13px 0px -1px #41e0df;
   -moz-box-shadow: 14px 13px 0px -1px #41e0df;
+  -o-box-shadow: 14px 13px 0px -1px #41e0df;
 }
 
 .carousel *, .carousel *:before, .carousel *:after {
       box-sizing: inherit;
       max-width: -webkit-fill-available;
+      width: -moz-available;  
 }
 
 .columna1top {
@@ -350,6 +354,7 @@ margin-left: 12px;
   box-shadow: -13px 13px 0px -1px #41e0df;
   -webkit-box-shadow: -13px 13px 0px -1px #41e0df;
   -moz-box-shadow: -13px 13px 0px -1px #41e0df;
+  -o-box-shadow: 13px 13px 0px -1px #41e0df;
 }
 .mapa-parque{
   width: 475px;
