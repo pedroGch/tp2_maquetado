@@ -513,13 +513,17 @@ footer p, ul {
   font-weight: normal;
 }
 
-#boton-volver-arriba {
-  padding: 20px 20px 110px 20px;
+.boton-volver-arriba {
+  padding: 20px 20px 117px 20px;
   margin-bottom: 30px;
   background-image: url(../imagenes/icono-arriba.png);
   background-repeat: no-repeat;
   background-position-x: 97%;
   position: relative;
+}
+
+.mt-150 {
+  margin-top: -150px;
 }
 
 .h2-sin-estilo {
