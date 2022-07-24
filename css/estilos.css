@@ -231,9 +231,14 @@ h3 {
 }
 
 .boton a {
+  display: inline-block;     
+  position: relative;    
+  z-index: 1;     
   text-decoration: none !important; 
   color: #000;
   font-weight: 700;
+  width: 147px;
+  height: 41px;
 }
 
 .boton-inverse {
@@ -254,6 +259,11 @@ h3 {
 }
 
 .boton-inverse a {
+  display: inline-block;     
+  position: relative;    
+  z-index: 1;     
+  width: 147px;
+  height: 41px;
   text-decoration: none !important; 
   color: #000;
   font-weight: 700;
