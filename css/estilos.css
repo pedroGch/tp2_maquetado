@@ -230,7 +230,23 @@ h3 {
     background-position: center;
 }
 
-.boton a {
+.boton-blanco {
+  text-transform: uppercase;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 524px;
+  padding-top: 20px;
+  width: 147px;
+  height: 48px;
+  display: block;
+  background-image: url(../imagenes/fondo-boton-blanco.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 90%;
+}
+
+.boton a, .boton-blanco a {
   display: inline-block;     
   position: relative;    
   z-index: 1;     
@@ -336,6 +352,30 @@ height: 900px;
   margin-top: 40px;
   margin-left: 20px;
  }
+
+#seccion-vivid-en-index {
+  background-image: url(../imagenes/desktop/eventos-home.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1200px;
+  height: 600px;
+  text-align: center;
+}
+
+#seccion-vivid-en-index p {
+  width: 480px;
+  display: inline-block;
+  text-align: center;
+  
+}
+
+.texto-blanco {
+  color: #FFF;
+  text-shadow: 1px 1px #000;
+  text-align: center;
+}
+
+
 /*--------------------------------------------- INICIO FOOTER -----------------------------------------------*/
 
 footer {

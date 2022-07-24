@@ -269,6 +269,30 @@ header nav ul:last-child{
   margin-top: 20px;
 }
 
+#seccion-vivid-en-index {
+  width: 100vw;
+  background-image: url("../imagenes/mobile/fondo-vivid-sydney2-mb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 600px;
+}
+
+#seccion-vivid-en-index p {
+  width: 80vw;
+  display: inline-block;
+  text-align: center;
+  padding-top: 0px;
+ 
+}
+
+#bloque-texto-blanco h2 {
+  padding-top: 15px;  
+}
+.boton-blanco {
+  display: inline-block;
+}
+
 /*-------------------------------------      HOME, FIN        ----------------------------------------*/
 
 
