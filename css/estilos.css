@@ -509,8 +509,9 @@ footer p, ul {
   margin: 50px 50px 50px 50px;
 }
 
-.strong-sin-estilos {
+.strong-sin-estilos, .em-sin-estilos {
   font-weight: normal;
+  font-style: normal;
 }
 
 .boton-volver-arriba {
@@ -854,6 +855,23 @@ ol li a {
   margin-top: -100px;
 }
 
+.modal {
+  max-width: 850px !important;
+}
+
+.modal img {
+  display: inline-block;
+  margin-left: 20%;
+  padding: 20px 0px 20px 0px;
+}
+
+.modal h2 {
+  text-align: center;
+}
+
+.modal p {
+  padding: 15px;
+}
 /*--------------------------------------          VIVID SYDNEY, FIN   ------------------------------------------*/
 
 /*--------------------------------------          GRACIAS, INICIO   ------------------------------------------*/
