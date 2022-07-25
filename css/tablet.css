@@ -1,0 +1,171 @@
+/*-----------------------------      PROPIEDADES GENERALES, INICIO    --------------------------------*/
+
+
+
+
+/*------------------------------      PROPIEDADES GENERALES, FIN     ---------------------------------*/
+
+
+/*-------------------------------------      HEADER, INICIO   ----------------------------------------*/
+#logo {
+  padding: 15px 15px 15px 0px;
+  width: 95px;
+  height: 79px;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 10%;
+  background-image: url("../imagenes/icono-blanco.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 0px;
+}
+
+nav {
+  width: 48px;
+  height: 48px;
+  margin-left: 35%;
+}
+
+.menu {
+  display: none;
+  height: 50vh;
+  margin-left: -185px;
+  background-color: var(--new-light-blue);
+}
+
+.flecha_bajo{
+display: block;
+}
+
+header nav ul li{
+padding-left: 10px;
+font-size: 15px;
+text-align: right;
+}
+
+header nav ul li:nth-child(1){
+  padding-top: 14px;
+}
+
+header nav ul:last-child{
+  padding-bottom: 10px;
+}
+
+/*.op-info::before{
+content: '\273f';
+}*/
+.toggle{
+  position: relative;
+  width: 70px;
+  height: 70px;
+  background: var(--new-light-blue);
+  margin-left: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  overflow: hidden;
+}
+.toggle span{
+  position: absolute;
+  width: 40px;
+  height: 4px;
+  background: var(--light-sand);
+  border-radius: 4px;
+  transition: 0.5s;
+}
+.toggle span:nth-child(1){
+  transform: translateY(-15px);
+}
+.toggle.active span:nth-child(1){
+  transform: translateY(0px) rotate(45deg);
+  transition-delay: 0.125s;
+}
+.toggle span:nth-child(2){
+  transform: translateY(15px);
+}
+.toggle.active span:nth-child(2){
+  transform: translateY(0px) rotate(315deg);
+  transition-delay: 0.25s;
+}
+.toggle.active span:nth-child(3){
+  transform:translateX(60px) ;
+}
+.mostrar{
+  display: block;
+  transition: 0.5s;
+}
+/*-------------------------------------      HEADER, FIN      ----------------------------------------*/
+
+/*-------------------------------------      HOME, INICIO     ----------------------------------------*/
+
+#inicio{
+  width: 100vw;
+  background-image: url("../imagenes/tablet/fondo-inicio-t.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+}
+/*-------------------------------------      HOME, FIN        ----------------------------------------*/
+
+
+/*-------------------------------------      INFORMACION, INICIO  ------------------------------------*/
+/*-------------------------------------      INFORMACION, FIN  ---------------------------------------*/
+
+
+/*-------------------------------------      TURISMO, INICIO  ----------------------------------------*/
+/*-------------------------------------      TURISMO, FIN     ----------------------------------------*/
+
+/*-----------------------------------      VIVID SYDNEY, INICIO     ---------------------------------------*/
+/*-------------------------------------      VIVID SYDNEY, FIN     ----------------------------------------*/
+
+
+/*-------------------------------------      CONTACTO, INICIO   --------------------------------------*/
+/*-------------------------------------      CONTACTO, FIN    ----------------------------------------*/
+
+
+/*-------------------------------------      GRACIAS, INICIO   ---------------------------------------*/
+/*--------------------------------------     GRACIAS, FIN   ------------------------------------------*/
+
+/*-------------------------------------      FOOTER, INICIO   ----------------------------------------*/
+footer {
+  height: 452px;
+}
+
+#logo-davinci {
+  display: inline-block;
+  background: url(../imagenes/logo-davinci.png);
+  width: 300px;
+  height: 105px;
+  font-size:0px;
+  padding-left: 462px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#redes {
+  margin-left: 15%;
+}
+
+
+#redes li{
+  padding: 0px 20px 0px 20px;
+}
+
+#datos-tp ul li {
+  text-align: center;
+  font-size: 13px;
+}
+
+#alineado-derecha {
+  text-align: center;
+  font-size: 13px;
+  padding-left: 37%;
+  float: left;
+}
+
+#datos-tp {
+  padding: 30px 30px 30px 137px;
+}
+/*-------------------------------------      FOOTER, FIN      ----------------------------------------*/
