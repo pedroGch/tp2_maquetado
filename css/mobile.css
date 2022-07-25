@@ -81,6 +81,9 @@ p{
   background-position: center;
 }
 
+.ml10 {
+  margin-left: 10px;
+}
 /*------------------------------      PROPIEDADES GENERALES, FIN     ---------------------------------*/
 
 
@@ -301,6 +304,7 @@ header nav ul:last-child{
 
 #geografia-clima .columna-2 blockquote, #geografia-clima .columna-2 p, #bandera-idioma-demografia .columna-1 p {
   width: 90vw;
+  padding-left: 10px
 }
 
 .img-sombra-mobile {

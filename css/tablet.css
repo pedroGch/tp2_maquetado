@@ -37,7 +37,7 @@ p{
 .columna-1, .columna-2 {
   display: inline-block;
   width: 50vw;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .shadow-light-blue {
@@ -237,6 +237,28 @@ content: '\273f';
 
 
 /*-------------------------------------      INFORMACION, INICIO  ------------------------------------*/
+.img-ubic-historia{
+  padding: 140px 0px 50px 0px;
+}
+
+.img-geografia {
+  margin: 50px 50px 50px 22px;
+}
+
+#geografia-clima .columna-2 blockquote, #geografia-clima .columna-2 p { 
+width: 370px;
+padding: 0;
+
+}
+#bandera-idioma-demografia .columna-1 p {
+  width: 370px;
+  padding: 0px 0px 0px 22px;
+}
+
+#img-final-info {
+  background-image: url(../imagenes/tablet/img-final-info-t.jpg);
+  height: 247px;
+}
 /*-------------------------------------      INFORMACION, FIN  ---------------------------------------*/
 
 

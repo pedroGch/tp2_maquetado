@@ -78,6 +78,7 @@
         
         <picture class="img-centrada-mobile"> 
           <source srcset="./imagenes/mobile/ubicacion-historia-mb.png" media="(max-width: 480px)" /> 
+          <source srcset="./imagenes/tablet/ubicacion-historia-t.png" media="(max-width: 800px)" /> 
           <img src="./imagenes/desktop/ubicacion-historia.png" alt="foto aerea del puerto de Sidney en 1940 y otra foto del mapa de Australia, señalando la ubicación de Sidney." class="img-ubic-historia">
         </picture>  
           
@@ -90,6 +91,7 @@
 
         <picture class="img-sombra-mobile"> 
           <source srcset="./imagenes/mobile/geografia-mb.jpg" media="(max-width: 480px)" /> 
+          <source srcset="./imagenes/tablet/geografia-t.jpg" media="(max-width: 800px)" /> 
           <img src="./imagenes/desktop/geografia.jpg" alt="foto aerea del puerto de Sidney actualmente" class="img-geografia shadow-light-blue">
         </picture>  
        
@@ -102,7 +104,7 @@
 
         <h2>Clima</h2>
 
-        <p>El clima de Sídney se clasifica como cálido y templado. La precipitación en Sídney es significativa, con precipitaciones incluso durante el mes más seco. La temperatura media anual en Sídney se encuentra a 18.0 °C, y el promedio de lluvias es de 912 mm.</p>
+        <p class="ml10">El clima de Sídney se clasifica como cálido y templado. La precipitación en Sídney es significativa, con precipitaciones incluso durante el mes más seco. La temperatura media anual en Sídney se encuentra a 18.0 °C, y el promedio de lluvias es de 912 mm.</p>
       </div>
     </section>
 
@@ -111,7 +113,9 @@
       <div class="columna-1">
         <h2>Bandera</h2>
         <div class="img-centrada">
-          <picture><img src="./imagenes/desktop/bandera.jpg" alt="ilustración de bandera de Australia"></picture>
+          <picture>
+            <source srcset="./imagenes/tablet/bandera-t.jpg" media="(max-width: 800px)" /> 
+            <img src="./imagenes/desktop/bandera.jpg" alt="ilustración de bandera de Australia"></picture>
         </div>
         <p><strong>Australia fue descubierta en el año 1766 por los ingleses, y durante muchos años - exactamente hasta 1901 - perteneció al Imperio Británico.</strong></p>
 
@@ -119,7 +123,7 @@
 
       </div>
 
-      <div>
+      <div class="columna-2">
         <h2>Idioma</h2>
 
         <p>Por su situación y por su total predominio, <strong> el inglés se ha convertido en el idioma nacional por excelencia</strong>, más concretamente, el ya reconocido como inglés australiano. Una variante que cuenta con un léxico y un acento propios, repletos de pequeñas diferencias con respecto al británico.
@@ -141,7 +145,7 @@
 </main>
 
 <a href="#info-inicio">
-  <div class="boton-volver-arriba "></div>
+  <div id="boton-volver-arriba-info"></div>
 </a>
   
 
