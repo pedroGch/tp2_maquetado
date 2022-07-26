@@ -285,6 +285,7 @@ header nav ul:last-child{
 }
 .boton-blanco {
   display: inline-block;
+  margin-left: 0;
 }
 
 /*-------------------------------------      HOME, FIN        ----------------------------------------*/
