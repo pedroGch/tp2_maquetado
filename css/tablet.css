@@ -301,6 +301,16 @@ padding: 0;
 /*-------------------------------------      TURISMO, FIN     ----------------------------------------*/
 
 /*-----------------------------------      VIVID SYDNEY, INICIO     ---------------------------------------*/
+
+#inicio-vivid{
+  width: 800px;
+  background-image: url("../imagenes/tablet/fondo-vivid-sydney-t.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+}
+
 /*-------------------------------------      VIVID SYDNEY, FIN     ----------------------------------------*/
 
 
