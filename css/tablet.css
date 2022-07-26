@@ -8,7 +8,7 @@ h1{
   font-size: 30px;
 }
 
-h2 {
+h2, h3 {
     font-size: 20px;
     line-height: 55px;
     font-weight: 600;
@@ -311,6 +311,12 @@ padding: 0;
   background-size: cover;
   background-position: center center;
   height: 400px;
+}
+
+.modal img {
+  display: inline-block;
+  margin-left: 13%;
+  padding: 20px 0px 20px 0px;
 }
 
 /*-------------------------------------      VIVID SYDNEY, FIN     ----------------------------------------*/

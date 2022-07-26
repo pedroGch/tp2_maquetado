@@ -204,10 +204,14 @@ main p{
   font-weight: 600;
 }
 
-h1, h2{
+h1 {
+  text-align: center;
+}
+
+h1, h2, h3{
   padding: 40px 20px 20px 20px;
   font-size: 60px;
-  text-align: center;
+
 }
 
 h2 {
@@ -216,12 +220,7 @@ h2 {
   text-align: left;
   line-height: 65px;}
 
-h3 {
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-  color: var(--new-light-blue);
-}
+
 
 .img-centrada{
   text-align: center;
@@ -933,6 +932,7 @@ ol li a {
 
 .modal {
   max-width: 850px !important;
+  margin-top: 150px;
 }
 
 .modal img {
