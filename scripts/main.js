@@ -6,9 +6,10 @@ menutoggle.onclick =  function(){
   menu.classList.toggle('mostrar');
   
 }
-// let opMenuInfo = document.querySelector('.op-info');
-// opMenuInfo.onclick= function(){
-//   $(".sub-menu-info").toggle();
 
-// }
-
+$(".menu-info").click(function (){
+  $('.sub-menu-info').slideToggle();
+});
+$(".menu-turismo").click(function (){
+  $('.sub-menu-turismo').slideToggle();
+});

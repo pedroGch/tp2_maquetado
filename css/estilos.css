@@ -122,7 +122,15 @@ header nav ul li:hover{
 .menu li:hover .sub-menu{
   display: block;
 }
+.arrow_icon{
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url("../imagenes/arrow_down.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 
+}
 main{
   width: 100vw;
   min-width: 1200px;
@@ -880,7 +888,7 @@ ol li a {
 
 #inicio-vivid{
   width: 1200;
-  background-image: url("../imagenes/desktop/fondo-vivid-sydney.jpg");
+  background-image: url(../imagenes/desktop/fondo-vivid-sydney.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;

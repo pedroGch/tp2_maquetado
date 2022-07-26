@@ -99,9 +99,13 @@ nav {
 
 .menu {
     display: none;
-    height: 50vh;
+    height: 75vh;
     margin-left: -185px;
     background-color: var(--new-light-blue);
+}
+
+.menu li:hover .sub-menu{
+  display: none;
 }
 
 .flecha_bajo{
@@ -112,7 +116,9 @@ header nav ul li{
   padding-left: 10px;
   font-size: 15px;
   text-align: right;
+  position: relative;
 }
+
 
 header nav ul li:nth-child(1){
     padding-top: 14px;
@@ -122,9 +128,10 @@ header nav ul:last-child{
     padding-bottom: 10px;
 }
 
-/*.op-info::before{
-  content: '\273f';
-}*/
+.sub-menu{
+  position: relative;
+  margin-left: -10px;
+}
 .toggle{
     position: relative;
     width: 70px;
