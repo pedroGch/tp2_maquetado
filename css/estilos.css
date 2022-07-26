@@ -84,6 +84,13 @@ header nav ul li{
   
 }
 
+header nav ul .menu-info, header nav ul .menu-turismo{
+  background-image: url(../imagenes/arrow_down.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-y: top;
+  padding-left: 30px;
+}
 
 .menu-link{
   text-decoration: none;
@@ -122,7 +129,7 @@ header nav ul li:hover{
 .menu li:hover .sub-menu{
   display: block;
 }
-.arrow_icon{
+/*.arrow_icon{
   display: block;
   width: 20px;
   height: 20px;
@@ -130,7 +137,7 @@ header nav ul li:hover{
   background-repeat: no-repeat;
   background-size: cover;
 
-}
+}*/
 main{
   width: 100vw;
   min-width: 1200px;
