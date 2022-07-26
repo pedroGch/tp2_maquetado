@@ -75,8 +75,8 @@ nav {
 
 .menu {
   display: none;
-  height: 50vh;
-  margin-left: -185px;
+  height: 75vh;
+  margin-left: -24px;
   background-color: var(--new-light-blue);
 }
 
