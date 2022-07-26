@@ -1,27 +1,27 @@
-:root{
+:root {
   --deep-blue: #002f6c;
-  --blue: #01579b; 
-  --light-blue: #bbdefb; 
-  --new-light-blue: #41e0df; 
+  --blue: #01579b;
+  --light-blue: #bbdefb;
+  --new-light-blue: #41e0df;
   --light-sand: #fff8e1;
   --dark-sand: #ccc5af;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-} 
-
-html{
-	scroll-behavior: smooth;
 }
 
-.mayuscula{
-  text-transform:uppercase;
+html {
+  scroll-behavior: smooth;
 }
 
-header{
+.mayuscula {
+  text-transform: uppercase;
+}
+
+header {
   width: 100%;
   height: 120px;
   background-color: var(--new-light-blue);
@@ -48,13 +48,13 @@ header{
 }
 
 #logo a {
-   display: inline-block;     
-   position: relative;    
-   z-index: 1;     
-   padding: 2em;     
-   margin: -2em; 
-   width: 95px;
-   height: 79px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding: 2em;
+  margin: -2em;
+  width: 95px;
+  height: 79px;
 }
 
 header nav {
@@ -65,7 +65,7 @@ header nav {
   margin-top: 30px;
 }
 
-header nav ul{
+header nav ul {
   width: 350px;
   display: flex;
   align-items: flex-end;
@@ -73,7 +73,7 @@ header nav ul{
   position: relative;
 }
 
-header nav ul li{
+header nav ul li {
   list-style: none;
   margin-right: 30px;
   color: #000;
@@ -81,10 +81,11 @@ header nav ul li{
   font-weight: 700;
   text-transform: uppercase;
   font-size: 18px;
-  
+
 }
 
-header nav ul .menu-info, header nav ul .menu-turismo{
+header nav ul .menu-info,
+header nav ul .menu-turismo {
   background-image: url(../imagenes/arrow_down.png);
   background-repeat: no-repeat;
   background-position: left;
@@ -92,7 +93,7 @@ header nav ul .menu-info, header nav ul .menu-turismo{
   padding-left: 30px;
 }
 
-.menu-link{
+.menu-link {
   text-decoration: none;
   color: #000;
   font-weight: 700;
@@ -100,22 +101,22 @@ header nav ul .menu-info, header nav ul .menu-turismo{
   font-size: 18px;
 }
 
-header nav ul li:hover{
+header nav ul li:hover {
   text-decoration: underline;
   text-decoration-thickness: 3px;
   text-underline-offset: 2px;
- 
+
 }
 
 .nav-activo {
-  text-decoration: underline ;
-  text-decoration-thickness: 3px ;
-  text-underline-offset: 2px ;
-  color: rgb(255, 255, 255) ;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 2px;
+  color: rgb(255, 255, 255);
 }
- 
 
-.sub-menu{
+
+.sub-menu {
   position: absolute;
   background-color: var(--new-light-blue);
   display: none;
@@ -126,9 +127,10 @@ header nav ul li:hover{
   padding: 10px;
 }
 
-.menu li:hover .sub-menu{
+.menu li:hover .sub-menu {
   display: block;
 }
+
 /*.arrow_icon{
   display: block;
   width: 20px;
@@ -138,7 +140,7 @@ header nav ul li:hover{
   background-size: cover;
 
 }*/
-main{
+main {
   width: 100vw;
   min-width: 1200px;
   background-color: #FFF;
@@ -150,12 +152,12 @@ main{
   overflow: auto; */
 }
 
-main p{
+main p {
   padding: 20px;
 
 }
 
-#inicio{
+#inicio {
   width: 1200;
   background-image: url("../imagenes/desktop/fondo-inicio.jpg");
   background-repeat: no-repeat;
@@ -168,13 +170,13 @@ main p{
   margin-top: -120px;
 }
 
-.container-centrado{
+.container-centrado {
   width: 1200px;
   margin: 0 auto;
 
 }
 
-.container-centrado-h1{
+.container-centrado-h1 {
   width: 1200px;
   margin: 0 auto;
   padding-top: 5%;
@@ -186,7 +188,7 @@ main p{
   -moz-box-shadow: 27px 26px 0px -1px #41e0df;
 }
 
-#principal{
+#principal {
   color: #fff;
   margin-left: -60px;
   text-align: center;
@@ -194,7 +196,7 @@ main p{
   font-size: 0px;
 }
 
-#texto-principal{
+#texto-principal {
   width: 44%;
   height: 250px;
   margin-top: -13px;
@@ -208,7 +210,9 @@ h1 {
   text-align: center;
 }
 
-h1, h2, h3{
+h1,
+h2,
+h3 {
   padding: 40px 20px 20px 20px;
   font-size: 60px;
 
@@ -218,11 +222,12 @@ h2 {
   font-weight: 400;
   font-size: 50px;
   text-align: left;
-  line-height: 65px;}
+  line-height: 65px;
+}
 
 
 
-.img-centrada{
+.img-centrada {
   text-align: center;
   margin: auto;
   padding-top: 30px;
@@ -230,18 +235,18 @@ h2 {
 }
 
 .boton {
-    text-transform: uppercase;
-    font-size: 18px;
-    cursor: pointer;
-    text-align: center;
-    margin-left: 18px;
-    padding-top: 20px;
-    width: 147px;
-    height: 48px;
-    display: inline-block;
-    background-image: url(../imagenes/fondo-boton.png);
-    background-repeat: no-repeat;
-    background-position: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 18px;
+  padding-top: 20px;
+  width: 147px;
+  height: 48px;
+  display: inline-block;
+  background-image: url(../imagenes/fondo-boton.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .boton-blanco {
@@ -260,11 +265,13 @@ h2 {
   opacity: 90%;
 }
 
-.boton a, .boton-blanco a, .boton-blanco-gracias a{
-  display: inline-block;     
-  position: relative;    
-  z-index: 1;     
-  text-decoration: none !important; 
+.boton a,
+.boton-blanco a,
+.boton-blanco-gracias a {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  text-decoration: none !important;
   color: #000;
   font-weight: 700;
   width: 147px;
@@ -289,12 +296,12 @@ h2 {
 }
 
 .boton-inverse a {
-  display: inline-block;     
-  position: relative;    
-  z-index: 1;     
+  display: inline-block;
+  position: relative;
+  z-index: 1;
   width: 147px;
   height: 41px;
-  text-decoration: none !important; 
+  text-decoration: none !important;
   color: #000;
   font-weight: 700;
 }
@@ -304,21 +311,21 @@ h2 {
   margin-left: -155px;
 }
 
-figcaption{
+figcaption {
   font-weight: 400;
   text-align: center;
   margin: auto;
 }
 
-.fig-max-width{
+.fig-max-width {
   width: 700px;
 }
 
-.flecha_bajo{
+.flecha_bajo {
   display: none;
 }
 
-#fondo-mapa{
+#fondo-mapa {
   background-image: url(../imagenes/desktop/mapa-australia.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -328,7 +335,7 @@ figcaption{
   padding-left: 60px;
 }
 
-#turismo-home{
+#turismo-home {
   background-image: url(../imagenes/desktop/fondo-olas.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -349,23 +356,23 @@ figcaption{
   width: 500px;
   display: inline-block;
   float: left;
- }
+}
 
 #espectacular-sidney {
-margin-top: 40px;
-margin-bottom: 80px;
-background-color: var(--light-sand);
-height: 900px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  background-color: var(--light-sand);
+  height: 900px;
 }
 
 #espectacular-sidney p {
- padding-right: 40px; 
+  padding-right: 40px;
 }
 
 #espectacular-sidney img {
   margin-top: 40px;
   margin-left: 20px;
- }
+}
 
 #seccion-vivid-en-index {
   background-image: url(../imagenes/desktop/eventos-home.jpg);
@@ -380,7 +387,7 @@ height: 900px;
   width: 480px;
   display: inline-block;
   text-align: center;
-  
+
 }
 
 .texto-blanco {
@@ -399,28 +406,29 @@ footer {
   color: var(--light-sand);
   position: absolute;
   color: #000;
-  
+
 }
 
-.linea-footer1{
- background-image: url(../imagenes/linea_footer.png);
- background-repeat: repeat-x;
- height: 3px;
- margin-top: -90px;
+.linea-footer1 {
+  background-image: url(../imagenes/linea_footer.png);
+  background-repeat: repeat-x;
+  height: 3px;
+  margin-top: -90px;
 }
 
-.linea-footer2{
+.linea-footer2 {
   background-image: url(../imagenes/linea_footer.png);
   background-repeat: repeat-x;
   height: 3px;
   margin-top: 15px;
- }
+}
+
 #logo-davinci {
   display: inline-block;
-	background: url(../imagenes/logo-davinci.png);
+  background: url(../imagenes/logo-davinci.png);
   width: 300px;
   height: 105px;
-  font-size:0px;
+  font-size: 0px;
   float: left;
   padding: 20px;
   background-repeat: no-repeat;
@@ -431,54 +439,63 @@ footer {
   margin-left: 38%;
 }
 
-#redes li{
-	display: inline-block;
+#redes li {
+  display: inline-block;
   padding: 0px 10px 0px 10px;
 }
 
-#redes li a{
-	display: inline-block;
-	background: url(../imagenes/sprite-redes.png);
-	width: 50px;
-	height: 50px;
-	font-size:0px;
+#redes li a {
+  display: inline-block;
+  background: url(../imagenes/sprite-redes.png);
+  width: 50px;
+  height: 50px;
+  font-size: 0px;
 }
 
 
-  #redes li:nth-child(1) a:hover{
-    background-position: 0 -50px;
-  }
+#redes li:nth-child(1) a:hover {
+  background-position: 0 -50px;
+}
 
-  #redes li:nth-child(2) a{
-    background-position: -50px 0px;
-  }
-  #redes li:nth-child(2) a:hover{
-    background-position: -50px -50px;
-  }
-  #redes li:nth-child(3) a{
-    background-position: -100px 0px;
-  }
-  #redes li:nth-child(3) a:hover{
-    background-position: -100px -50px;
-  }
-  #redes li:nth-child(4) a{
-    background-position: -150px 0px;
-  }
-  #redes li:nth-child(4) a:hover{
-    background-position: -150px -50px;
-  }
-  #redes li:nth-child(5) a{
-    background-position: -200px 0px;
-  }
-  #redes li:nth-child(5) a:hover{
-    background-position: -200px -50px;
-  }
-  #redes li:nth-child(6) a{
-    background-position: -250px 0px;
-  }
-  #redes li:nth-child(6) a:hover{
-    background-position: -250px -50px;
-  }
+#redes li:nth-child(2) a {
+  background-position: -50px 0px;
+}
+
+#redes li:nth-child(2) a:hover {
+  background-position: -50px -50px;
+}
+
+#redes li:nth-child(3) a {
+  background-position: -100px 0px;
+}
+
+#redes li:nth-child(3) a:hover {
+  background-position: -100px -50px;
+}
+
+#redes li:nth-child(4) a {
+  background-position: -150px 0px;
+}
+
+#redes li:nth-child(4) a:hover {
+  background-position: -150px -50px;
+}
+
+#redes li:nth-child(5) a {
+  background-position: -200px 0px;
+}
+
+#redes li:nth-child(5) a:hover {
+  background-position: -200px -50px;
+}
+
+#redes li:nth-child(6) a {
+  background-position: -250px 0px;
+}
+
+#redes li:nth-child(6) a:hover {
+  background-position: -250px -50px;
+}
 
 
 footer ul {
@@ -486,11 +503,13 @@ footer ul {
 
 }
 
-footer p, ul {
+footer p,
+ul {
   display: inline-block;
 }
 
-.logo-davinci, .datos-tp {
+.logo-davinci,
+.datos-tp {
   display: inline-block;
   float: left;
   padding: 20px;
@@ -498,82 +517,87 @@ footer p, ul {
 
 .lista-sin-estilo {
   list-style: none;
- }
+}
 
- .hiperv-sin-estilo{
-   text-decoration: none;
-   color: #000;
- }
+.hiperv-sin-estilo {
+  text-decoration: none;
+  color: #000;
+}
 
- #alineado-derecha {
-   float: right;
-   display: inline-block;
-   padding: 30px;
-   text-align: right;
- }
+#alineado-derecha {
+  float: right;
+  display: inline-block;
+  padding: 30px;
+  text-align: right;
+}
 
- #datos-tp {
-   display: inline-block;
-   float: left;
-   margin: 0 auto;
-   padding: 30px;
-  
- }
+#datos-tp {
+  display: inline-block;
+  float: left;
+  margin: 0 auto;
+  padding: 30px;
+
+}
+
 /*--------------------------------------------- FIN FOOTER -----------------------------------------------*/
- 
- .font-azul {
-   color: var(--new-light-blue);
- }
 
- /* #ubicacion-historia{
+.font-azul {
+  color: var(--new-light-blue);
+}
+
+/* #ubicacion-historia{
   height: 600px;
  } */
 
- #bandera-idioma-demografia{
+#bandera-idioma-demografia {
   /* height: 630px; */
   margin-top: 50px;
- }
+}
 
- #instituciones-culturales{
+#instituciones-culturales {
   height: 630px;
- }
+}
 
- #geografia-clima{
+#geografia-clima {
   overflow: auto;
   background-color: var(--light-sand);
- }
+}
 
- #geografia-clima .columna-2 blockquote, #geografia-clima .columna-2 p, #bandera-idioma-demografia .columna-1 p {
+#geografia-clima .columna-2 blockquote,
+#geografia-clima .columna-2 p,
+#bandera-idioma-demografia .columna-1 p {
   width: 550px;
 
- }
+}
 
-#laopera{
+#laopera {
   margin-top: 20px;
 }
 
- .font-cent {
-   text-align: center;
-   
- }
- 
- .columna-1, .columna-2 {
-   display: inline-block;
-   float: left;
-   width: 600px;
-   margin-bottom: 50px;
+.font-cent {
+  text-align: center;
+
+}
+
+.columna-1,
+.columna-2 {
+  display: inline-block;
+  float: left;
+  width: 600px;
+  margin-bottom: 50px;
 }
 
 
- .img-ubic-historia {
-   padding: 50px 50px 50px 30px;
- }
+.img-ubic-historia {
+  padding: 50px 50px 50px 30px;
+}
 
- .img-geografia {
+.img-geografia {
   margin: 50px 50px 50px 50px;
 }
 
-.strong-sin-estilos, .em-sin-estilos {
+.strong-sin-estilos,
+.em-sin-estilos {
   font-weight: normal;
   font-style: normal;
 }
@@ -624,7 +648,7 @@ footer p, ul {
 
 
 /*------------------------------------------ PAGINA DE CONTACTO ---------------------------------------------*/
-#seccion-contacto{
+#seccion-contacto {
   background-color: var(--light-sand);
   height: 77vh;
   margin-top: 50px;
@@ -637,7 +661,8 @@ footer p, ul {
   padding-bottom: 50px;
   margin-bottom: 20px;
 }
-.container{
+
+.container {
   position: relative;
   width: 100%;
   height: 500px;
@@ -645,26 +670,31 @@ footer p, ul {
   justify-content: space-between;
   align-items: center;
 }
-.container .formBx{
+
+.container .formBx {
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.container .formBx form{
+
+.container .formBx form {
   position: relative;
   width: 100%;
   padding: 0 0 0 75px;
 }
-.container .formBx form .inputBox{
+
+.container .formBx form .inputBox {
   position: relative;
   margin-bottom: 40px;
 }
-.container .formBx form .inputBox:last-child{
+
+.container .formBx form .inputBox:last-child {
   margin-bottom: 0px;
 }
+
 .container .formBx form .inputBox input,
-.container .formBx form .inputBox textarea{
+.container .formBx form .inputBox textarea {
   position: relative;
   background: transparent;
   outline: none;
@@ -678,11 +708,13 @@ footer p, ul {
   border-bottom: 2px solid rgba(1, 87, 154, 0.5);
   resize: none;
 }
-.container .formBx form .inputBox textarea{
+
+.container .formBx form .inputBox textarea {
   height: 100px;
 }
-.container .formBx form .inputBox input[type="submit"]{
- 
+
+.container .formBx form .inputBox input[type="submit"] {
+
   padding: 8px 20px;
   margin-top: -10px;
   width: 147px;
@@ -695,14 +727,15 @@ footer p, ul {
   font-weight: 400;
   border: none;
   text-transform: uppercase;
- 
+
 }
 
-.container .formBx form .inputBox input[type="submit"]:focus{
+.container .formBx form .inputBox input[type="submit"]:focus {
   background: var(--blue);
   color: #fff;
 }
-.container .formBx form .inputBox span{
+
+.container .formBx form .inputBox span {
   position: absolute;
   left: 0;
   font-size: 16px;
@@ -713,104 +746,121 @@ footer p, ul {
   color: rgba(0, 0, 0, 0.7);
   transition: all 0.2s;
 }
-.container .formBx form .inputBox input:focus ~ span,
-.container .formBx form .inputBox textarea:focus ~ span,
-.container .formBx form .inputBox input:valid ~ span,
-.container .formBx form .inputBox textarea:valid ~ span{
+
+.container .formBx form .inputBox input:focus~span,
+.container .formBx form .inputBox textarea:focus~span,
+.container .formBx form .inputBox input:valid~span,
+.container .formBx form .inputBox textarea:valid~span {
   transform: translateY(-24px);
   /* color: #1bfaad; */
   font-size: 14px;
 }
+
 .container .formBx form .inputBox input:focus,
 .container .formBx form .inputBox textarea:focus,
 .container .formBx form .inputBox input:valid,
-.container .formBx form .inputBox textarea:valid{
+.container .formBx form .inputBox textarea:valid {
   border-bottom-color: rgba(0, 47, 108, 0.8);
 }
-.container .inputMultiSelect{
+
+.container .inputMultiSelect {
   margin-bottom: 40px;
 }
-.container .inputMultiSelect .inputCheck{
+
+.container .inputMultiSelect .inputCheck {
   font-size: 16px;
   font-weight: 300;
   letter-spacing: 1px;
   color: rgba(0, 0, 0, 0.7);
 }
-.container .inputMultiSelect h2{
+
+.container .inputMultiSelect h2 {
   font-size: 25px;
   padding: 0;
   text-align: left;
   margin-bottom: 25px;
 }
-.container .inputMultiSelect h2 input[type=checkbox]{
+
+.container .inputMultiSelect h2 input[type=checkbox] {
   margin-bottom: 25px;
 }
-.container .imgBx{
+
+.container .imgBx {
   position: relative;
   width: 50%;
   height: 111%;
- 
-  
+
+
 }
-input[type="file"]{
+
+input[type="file"] {
   border: 1px solid #ccc;
   display: inline-block;
   padding: 6px 12px;
   cursor: pointer;
 }
+
 .container .imgBx img {
   position: absolute;
   bottom: 0;
   max-height: 95%;
   margin-left: 80px;
-  
+
 }
 
-.mb-10{
+.mb-10 {
   margin-bottom: 10%;
 }
 
 /*------------------------------------------ FIN PAGINA DE CONTACTO ------------------------------------------*/
 /*-----------------------------------------          TURISMO        ------------------------------------------*/
-.mb-90{
-  margin-bottom:90px;
+.mb-90 {
+  margin-bottom: 90px;
 }
-.mb-5{
+
+.mb-5 {
   margin-bottom: 5%;
 }
-.card{
-  width: 100%; 
+
+.card {
+  width: 100%;
   margin-top: 50px;
 }
-.card .card-body{
+
+.card .card-body {
   display: flex;
 }
-.card .card-body .card-text{
+
+.card .card-body .card-text {
   width: 50%;
 }
-.card .card-body .card-image{
-  width: 458px; 
+
+.card .card-body .card-image {
+  width: 458px;
   height: 337px;
   box-shadow: 27px 26px 0px -1px #41e0df;
   -webkit-box-shadow: 27px 26px 0px -1px #41e0df;
   -moz-box-shadow: 27px 26px 0px -1px #41e0df;
 }
-.inverse{
-  width: 458px; 
+
+.inverse {
+  width: 458px;
   height: 337px;
   box-shadow: -27px 26px 0px -1px #41e0df !important;
   -webkit-box-shadow: -27px 26px 0px -1px #41e0df !important;
   -moz-box-shadow: -27px 26px 0px -1px #41e0df !important;
 }
-.card .card-body .card-image img{
+
+.card .card-body .card-image img {
   width: 100%;
   height: 100%;
 }
 
-.card .card-footer{
+.card .card-footer {
   margin-left: 20px;
 }
-.card-footer button{
+
+.card-footer button {
   width: 120px;
   height: 50px;
   font-weight: 700;
@@ -818,27 +868,29 @@ input[type="file"]{
   border-radius: 42px;
   border: none;
 }
-.card-footer button a{
+
+.card-footer button a {
   text-decoration: none;
 }
-#BlueMountain:nth-child(3){
+
+#BlueMountain:nth-child(3) {
   margin-bottom: 50px;
 }
 
-.card-image iframe{
+.card-image iframe {
   border-width: 0;
 }
 
 #top-5 {
   background-color: var(--light-sand);
-  overflow:auto;
+  overflow: auto;
 }
 
 #top-5 h2 {
-text-align: center;
+  text-align: center;
 }
 
-#top-5 p{
+#top-5 p {
   font-size: 20px;
   padding: 20px;
 }
@@ -886,24 +938,25 @@ ol li a {
 #ubicacion-historia::before,
 #geografia-clima::before,
 #bandera-idioma-demografia::before,
-#BlueMountain::before, 
-#vivid-sydney::before, 
-#Ku-ring-gai::before, 
-#manly::before, 
-#laopera::before, 
-#conoce-sidney::before{
+#BlueMountain::before,
+#vivid-sydney::before,
+#Ku-ring-gai::before,
+#manly::before,
+#laopera::before,
+#conoce-sidney::before {
   content: "";
   height: 120px;
   display: block;
   visibility: hidden;
   margin-top: -120px;
 }
+
 /*--------------------------------------           ANCLAS, INICIO   ------------------------------------------*/
 
 
 /*--------------------------------------           VIVID SYDNEY, INICIO   ------------------------------------------*/
 
-#inicio-vivid{
+#inicio-vivid {
   width: 1200;
   background-image: url(../imagenes/desktop/fondo-vivid-sydney.jpg);
   background-repeat: no-repeat;
@@ -948,6 +1001,7 @@ ol li a {
 .modal p {
   padding: 15px;
 }
+
 /*--------------------------------------          VIVID SYDNEY, FIN   ------------------------------------------*/
 
 /*--------------------------------------          GRACIAS, INICIO   ------------------------------------------*/
@@ -961,14 +1015,14 @@ ol li a {
   padding-top: 100px;
 }
 
-.bloque-blanco-transp{
-color: #FFF;
-text-align: center;
-text-shadow: 4px 2px #000;
-padding: 100px;
-background-color: rgba(255, 255, 255, 0.1);
-width: 720px;
-height: 250px;
+.bloque-blanco-transp {
+  color: #FFF;
+  text-align: center;
+  text-shadow: 4px 2px #000;
+  padding: 100px;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 720px;
+  height: 250px;
 
 }
 
@@ -976,8 +1030,9 @@ height: 250px;
   text-align: center;
 }
 
-.p-destacado-blanco{
+.p-destacado-blanco {
   font-size: 25px;
   font-weight: 600;
 }
+
 /*--------------------------------------          GRACIAS, FIN   ------------------------------------------*/

@@ -4,37 +4,39 @@ main {
   min-width: 800px;
 }
 
-h1{
+h1 {
   font-size: 30px;
 }
 
-h2, h3 {
-    font-size: 20px;
-    line-height: 55px;
-    font-weight: 600;
-    padding: 10px 20px 20px 20px;
+h2,
+h3 {
+  font-size: 20px;
+  line-height: 55px;
+  font-weight: 600;
+  padding: 10px 20px 20px 20px;
 }
 
-p{
+p {
   font-size: 14px;
   padding: 5px 20px 0 20px;
 }
 
 
 
-.container-centrado{
+.container-centrado {
   width: 800px;
   margin: 0 auto;
 
 }
 
-.container-centrado-h1{
+.container-centrado-h1 {
   width: 100vw;
   margin: 0 auto;
   padding-top: 5%;
 }
 
-.columna-1, .columna-2 {
+.columna-1,
+.columna-2 {
   display: inline-block;
   width: 50vw;
   margin-bottom: 20px;
@@ -80,28 +82,28 @@ nav {
   background-color: var(--new-light-blue);
 }
 
-.flecha_bajo{
-display: block;
+.flecha_bajo {
+  display: block;
 }
 
-header nav ul li{
-padding-left: 10px;
-font-size: 15px;
-text-align: right;
+header nav ul li {
+  padding-left: 10px;
+  font-size: 15px;
+  text-align: right;
 }
 
-header nav ul li:nth-child(1){
+header nav ul li:nth-child(1) {
   padding-top: 14px;
 }
 
-header nav ul:last-child{
+header nav ul:last-child {
   padding-bottom: 10px;
 }
 
 /*.op-info::before{
 content: '\273f';
 }*/
-.toggle{
+.toggle {
   position: relative;
   width: 70px;
   height: 70px;
@@ -113,7 +115,8 @@ content: '\273f';
   cursor: pointer;
   overflow: hidden;
 }
-.toggle span{
+
+.toggle span {
   position: absolute;
   width: 40px;
   height: 4px;
@@ -121,32 +124,39 @@ content: '\273f';
   border-radius: 4px;
   transition: 0.5s;
 }
-.toggle span:nth-child(1){
+
+.toggle span:nth-child(1) {
   transform: translateY(-15px);
 }
-.toggle.active span:nth-child(1){
+
+.toggle.active span:nth-child(1) {
   transform: translateY(0px) rotate(45deg);
   transition-delay: 0.125s;
 }
-.toggle span:nth-child(2){
+
+.toggle span:nth-child(2) {
   transform: translateY(15px);
 }
-.toggle.active span:nth-child(2){
+
+.toggle.active span:nth-child(2) {
   transform: translateY(0px) rotate(315deg);
   transition-delay: 0.25s;
 }
-.toggle.active span:nth-child(3){
-  transform:translateX(60px) ;
+
+.toggle.active span:nth-child(3) {
+  transform: translateX(60px);
 }
-.mostrar{
+
+.mostrar {
   display: block;
   transition: 0.5s;
 }
+
 /*-------------------------------------      HEADER, FIN      ----------------------------------------*/
 
 /*-------------------------------------      HOME, INICIO     ----------------------------------------*/
 
-#inicio{
+#inicio {
   width: 100vw;
   background-image: url("../imagenes/tablet/fondo-inicio-t.jpg");
   background-repeat: no-repeat;
@@ -164,7 +174,7 @@ content: '\273f';
   margin-top: 19px;
 }
 
-#fondo-mapa{
+#fondo-mapa {
   background-image: url(../imagenes/tablet/mapa-australia-t.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -174,7 +184,7 @@ content: '\273f';
   padding-left: 208px;
 }
 
-#turismo-home{
+#turismo-home {
   background-image: url(../imagenes/tablet/fondo-olas-t.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -196,15 +206,15 @@ content: '\273f';
   width: 350px;
   display: inline-block;
   float: left;
- }
+}
 
- #turismo-home .wrap-blanco div .boton {
+#turismo-home .wrap-blanco div .boton {
   margin-left: -80px;
 }
 
 #espectacular-sidney {
   height: 650px;
-  }
+}
 
 #espectacular-sidney .columna-2 h2 {
   margin-top: 35px
@@ -218,11 +228,13 @@ content: '\273f';
   height: 489px;
   text-align: center;
 }
+
 .card .card-body .card-text {
   width: 49%;
 }
+
 #bloque-texto-blanco h2 {
-  padding-top: 20px;  
+  padding-top: 20px;
 }
 
 .boton-blanco {
@@ -232,14 +244,16 @@ content: '\273f';
 #mapa {
   width: 800px;
 }
-#maps iframe:nth-of-type(2){
+
+#maps iframe:nth-of-type(2) {
   display: none;
 }
+
 /*-------------------------------------      HOME, FIN        ----------------------------------------*/
 
 
 /*-------------------------------------      INFORMACION, INICIO  ------------------------------------*/
-.img-ubic-historia{
+.img-ubic-historia {
   padding: 140px 0px 50px 0px;
 }
 
@@ -247,11 +261,13 @@ content: '\273f';
   margin: 50px 50px 50px 22px;
 }
 
-#geografia-clima .columna-2 blockquote, #geografia-clima .columna-2 p { 
-width: 370px;
-padding: 0;
+#geografia-clima .columna-2 blockquote,
+#geografia-clima .columna-2 p {
+  width: 370px;
+  padding: 0;
 
 }
+
 #bandera-idioma-demografia .columna-1 p {
   width: 370px;
   padding: 0px 0px 0px 22px;
@@ -261,6 +277,7 @@ padding: 0;
   background-image: url(../imagenes/tablet/img-final-info-t.jpg);
   height: 247px;
 }
+
 /*-------------------------------------      INFORMACION, FIN  ---------------------------------------*/
 
 
@@ -270,41 +287,45 @@ padding: 0;
   margin-left: 50px;
 }
 
-.video{
+.video {
   width: 796px;
 }
-.card .card-body .card-image{
-  width: 380px; 
+
+.card .card-body .card-image {
+  width: 380px;
   height: 280px;
   box-shadow: 15px 15px 0px -1px #41e0df;
   -webkit-box-shadow: 15px 15px 0px -1px #41e0df;
   -moz-box-shadow: 15px 15px 0px -1px #41e0df;
 }
-.inverse{
-  width: 380px; 
+
+.inverse {
+  width: 380px;
   height: 280px;
   margin-left: 6px;
   box-shadow: 15px 15px 0px -1px #41e0df !important;
   -webkit-box-shadow: 15px 15px 0px -1px #41e0df !important;
   -moz-box-shadow: 15px 15px 0px -1px #41e0df !important;
 }
-.card .card-body .card-image img{
+
+.card .card-body .card-image img {
   width: 100%;
   height: 100%;
 }
 
-.video-parque{
+.video-parque {
   width: 380px;
 }
 
-.mapa-parque{
+.mapa-parque {
   width: 796px;
 }
+
 /*-------------------------------------      TURISMO, FIN     ----------------------------------------*/
 
 /*-----------------------------------      VIVID SYDNEY, INICIO     ---------------------------------------*/
 
-#inicio-vivid{
+#inicio-vivid {
   width: 800px;
   background-image: url("../imagenes/tablet/fondo-vivid-sydney-t.jpg");
   background-repeat: no-repeat;
@@ -323,7 +344,7 @@ padding: 0;
 
 
 /*-------------------------------------      CONTACTO, INICIO   --------------------------------------*/
-#seccion-contacto{
+#seccion-contacto {
   margin-bottom: 122px;
 }
 
@@ -347,6 +368,7 @@ padding: 0;
 .formBx h2 {
   font-size: 20px;
 }
+
 /*-------------------------------------      CONTACTO, FIN    ----------------------------------------*/
 
 
@@ -366,18 +388,18 @@ padding: 0;
   font-size: 28px;
 }
 
-.bloque-blanco-transp{
-color: #FFF;
-text-align: center;
-text-shadow: 4px 2px #000;
-padding: 80px 100px;
-background-color: rgba(255, 255, 255, 0.1);
-width: 550px;
-height: 250px;
+.bloque-blanco-transp {
+  color: #FFF;
+  text-align: center;
+  text-shadow: 4px 2px #000;
+  padding: 80px 100px;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 550px;
+  height: 250px;
 
 }
 
-.p-destacado-blanco{
+.p-destacado-blanco {
   font-size: 20px;
   font-weight: 500;
 }
@@ -397,12 +419,13 @@ height: 250px;
   background-repeat: no-repeat;
   background-position: center;
   opacity: 90%;
-  
+
 }
 
 .boton-blanco-gracias a {
   text-shadow: none;
 }
+
 /*--------------------------------------     GRACIAS, FIN   ------------------------------------------*/
 
 /*-------------------------------------      FOOTER, INICIO   ----------------------------------------*/
@@ -415,7 +438,7 @@ footer {
   background: url(../imagenes/logo-davinci.png);
   width: 300px;
   height: 105px;
-  font-size:0px;
+  font-size: 0px;
   padding-left: 462px;
   background-repeat: no-repeat;
   background-position: center;
@@ -426,7 +449,7 @@ footer {
 }
 
 
-#redes li{
+#redes li {
   padding: 0px 20px 0px 20px;
 }
 
@@ -445,4 +468,5 @@ footer {
 #datos-tp {
   padding: 30px 30px 30px 137px;
 }
+
 /*-------------------------------------      FOOTER, FIN      ----------------------------------------*/
