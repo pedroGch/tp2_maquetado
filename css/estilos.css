@@ -246,7 +246,7 @@ h3 {
   opacity: 90%;
 }
 
-.boton a, .boton-blanco a {
+.boton a, .boton-blanco a, .boton-blanco-gracias a{
   display: inline-block;     
   position: relative;    
   z-index: 1;     

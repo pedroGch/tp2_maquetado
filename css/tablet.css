@@ -227,6 +227,7 @@ content: '\273f';
 .boton-blanco {
   margin-left: 320px;
 }
+
 #mapa {
   width: 800px;
 }
@@ -343,6 +344,58 @@ padding: 0;
 
 
 /*-------------------------------------      GRACIAS, INICIO   ---------------------------------------*/
+#gracias {
+  width: 800px;
+  background-image: url("../imagenes/tablet/gracias-background-t.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 482px;
+  padding-top: 100px;
+  margin-bottom: 89px;
+}
+
+#gracias h2 {
+  font-size: 28px;
+}
+
+.bloque-blanco-transp{
+color: #FFF;
+text-align: center;
+text-shadow: 4px 2px #000;
+padding: 80px 100px;
+background-color: rgba(255, 255, 255, 0.1);
+width: 550px;
+height: 250px;
+
+}
+
+.p-destacado-blanco{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.boton-blanco-gracias {
+  margin-left: 190px;
+  text-transform: uppercase;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 195px;
+  padding-top: 20px;
+  width: 147px;
+  height: 48px;
+  display: block;
+  background-image: url(../imagenes/fondo-boton-blanco.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 90%;
+  
+}
+
+.boton-blanco-gracias a {
+  text-shadow: none;
+}
 /*--------------------------------------     GRACIAS, FIN   ------------------------------------------*/
 
 /*-------------------------------------      FOOTER, INICIO   ----------------------------------------*/
