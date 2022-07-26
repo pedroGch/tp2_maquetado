@@ -274,13 +274,14 @@ padding: 0;
 .card .card-body .card-image{
   width: 380px; 
   height: 280px;
-  box-shadow: 27px 26px 0px -1px #41e0df;
-  -webkit-box-shadow: 27px 26px 0px -1px #41e0df;
-  -moz-box-shadow: 27px 26px 0px -1px #41e0df;
+  box-shadow: 15px 15px 0px -1px #41e0df;
+  -webkit-box-shadow: 15px 15px 0px -1px #41e0df;
+  -moz-box-shadow: 15px 15px 0px -1px #41e0df;
 }
 .inverse{
   width: 380px; 
   height: 280px;
+  margin-left: 6px;
   box-shadow: 15px 15px 0px -1px #41e0df !important;
   -webkit-box-shadow: 15px 15px 0px -1px #41e0df !important;
   -moz-box-shadow: 15px 15px 0px -1px #41e0df !important;
@@ -304,6 +305,30 @@ padding: 0;
 
 
 /*-------------------------------------      CONTACTO, INICIO   --------------------------------------*/
+#seccion-contacto{
+  margin-bottom: 122px;
+}
+
+#seccion-contacto h1 {
+  margin-bottom: 20px;
+}
+
+.container .imgBx {
+  height: 100%;
+  margin-top: -60px;
+}
+
+.container .imgBx img {
+  margin-left: 41px;
+}
+
+.container .formBx form {
+  padding: 0 0 0 30px;
+}
+
+.formBx h2 {
+  font-size: 20px;
+}
 /*-------------------------------------      CONTACTO, FIN    ----------------------------------------*/
 
 
