@@ -13,6 +13,7 @@
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,500&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="./css/estilos.css">
+  <link rel="stylesheet" href="./css/tablet.css" media="screen and (max-width: 800px)"/>
   <link rel="stylesheet" href="./css/mobile.css" media="screen and (max-width: 480px)"/>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
@@ -79,7 +80,7 @@
 <section id="top-5" class="container-centrado">
   <h2>Los 5 destinos que no te podes perder</h2>
   <div class="columna1top">
-    <img src="./imagenes/desktop/img-top5.png" alt="miniatura de las 5 fotos de los lugares">
+    <picture><img src="./imagenes/desktop/img-top5.png" alt="miniatura de las 5 fotos de los lugares"></picture>
   </div>
   
     <div class="columna2top">
@@ -113,6 +114,7 @@
           <div class="card-image">
             <picture> 
               <source srcset="./imagenes/mobile/vividsydney2022a-mb.jpg" media="(max-width: 480px)" /> 
+              <source srcset="./imagenes/tablet/vividsydney2022a-t.jpg" media="(max-width: 800px)" /> 
               <img src="./imagenes/desktop/vividsydney2022a.jpg" alt="festival vivid sydney de noche y con muchas luces de colores" /> 
             </picture> 
           </div>
@@ -141,6 +143,7 @@
           <div class="card-image">
             <picture> 
               <source srcset="./imagenes/mobile/mont-azules-home-mb.jpg" media="(max-width: 480px)" /> 
+              <source srcset="./imagenes/tablet/mont-azules-home-turismo-t.jpg" media="(max-width: 800px)" /> 
               <img src="./imagenes/desktop/mont-azules-home.jpg" alt="mujer sacando una foto en el parque montañas azules" /> 
             </picture>             
           </div>
@@ -150,7 +153,8 @@
         <div class="card-body">
           <div class="card-image inverse">
             <picture> 
-              <source srcset="./imagenes/mobile/parq_nac_blue_mountain-mb.jpg" media="(max-width: 480px)" /> 
+              <source srcset="./imagenes/mobile/parq_nac_blue_mountain-mb.jpg" media="(max-width: 480px)" />
+              <source srcset="./imagenes/tablet/parq_nac_blue_mountain-t.jpg" media="(max-width: 800px)" />  
               <img src="./imagenes/desktop/parq_nac_blue_mountain.jpg" alt="pareja en un balcon viendo las montañas"/> 
             </picture>
           </div>
@@ -185,6 +189,7 @@
           <div class="card-image">
             <picture> 
               <source srcset="./imagenes/mobile/pareja-montania-mb.jpg" media="(max-width: 480px)" /> 
+              <source srcset="./imagenes/tablet/pareja-montania-t.jpg" media="(max-width: 800px)" /> 
               <img src="./imagenes/desktop/pareja-montania.jpg" alt="pareja en montañas"/> 
             </picture>
           </div>
@@ -232,6 +237,7 @@
             <div>
               <picture> 
                 <source srcset="./imagenes/mobile/manly-mb.jpg" media="(max-width: 480px)" /> 
+                <source srcset="./imagenes/tablet/manly-t.jpg" media="(max-width: 800px)" />
                 <img src="./imagenes/desktop/manly.jpg" alt="playa de manly" /> 
               </picture>  
             </div>
@@ -263,6 +269,7 @@
       <figure class="img-centrada">
         <picture class="img-centrada">
           <source srcset="./imagenes/mobile/arquitectura-mb.jpg" media="(max-width: 480px)" />
+          <source srcset="./imagenes/tablet/arquitectura-t.jpg" media="(max-width: 800px)" />
           <img src="./imagenes/desktop/arquitectura.jpg"
           alt="tres fotos de la Ópera de Sídney. La primera muestra una maqueta con corte transversal que deja ver el edificio por dentro, la segunda foto desde arriba en ángulo cenital del edificio, y la tercera, foto de frente.">
         </picture>
@@ -281,6 +288,7 @@
       <figure class="img-centrada">
         <picture class="img-centrada">
           <source srcset="./imagenes/mobile/interior-opera-mb.jpg" media="(max-width: 480px)" />
+          <source srcset="./imagenes/tablet/interior-opera-t.jpg" media="(max-width: 800px)" />
           <img src="./imagenes/desktop/interior-opera.jpg" alt="foto del interior de la sala de conciertos">
         </picture>
         <figcaption class="fig-max-width">Sala de conciertos. El interior del edificio está construido en granito rosa extraído de la región de Tarana, madera y contrachapado proveniente de  <abbr title="Nueva Gales del Sur" lang="es">NGS</abbr>.</figcaption>

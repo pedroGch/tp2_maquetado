@@ -13,6 +13,7 @@
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,500&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="./css/estilos.css"/>
+  <link rel="stylesheet" href="./css/tablet.css" media="screen and (max-width: 800px)"/>
   <link rel="stylesheet" href="./css/mobile.css" media="screen and (max-width: 480px)"/>
   <script src="./scripts/html5shiv.js"></script>
   <script src="./scripts/prefixfree.min.js"></script>
@@ -66,11 +67,12 @@
     
       </div>
     </section>
-    <section class="container-centrado">
+    <section id="primer-seccion" class="container-centrado">
       <div>
         <div class="columna-1">          
           <picture> 
             <source srcset="./imagenes/mobile/mont-azules-home-mb.jpg" media="(max-width: 480px)" /> 
+            <source srcset="./imagenes/tablet/mont-azules-home-t.jpg" media="(max-width: 800px)" /> 
             <img class="img-home-superpuesta shadow-light-blue" src="./imagenes/desktop/mont-azules-home.jpg" alt="foto de una mujer sacando una foto a las montañas desde una pasarela en altura" /> 
           </picture>  
 
@@ -105,6 +107,7 @@
       <div>
         <picture class="img-centrada-mobile">
           <source srcset="./imagenes/mobile/img-puente-home-mb.jpg" media="(max-width: 480px)" />
+          <source srcset="./imagenes/tablet/img-puente-home-t.jpg" media="(max-width: 800px)" />
           <img  src="./imagenes/desktop/img-puente-home.jpg" alt="foto del puente del puerto de Sidney" />
         </picture>
 
@@ -117,9 +120,13 @@
     <section id="espectacular-sidney" class="container-centrado">
 
       <div class="columna-1">
-        <img class="img-home-superpuesta shadow-light-blue display-none-mobile" src="./imagenes/desktop/gastronomia.jpg" alt="foto de un plato con comida gourmet y una copa de vino">
+        <picture>
+          <source srcset="./imagenes/tablet/gastronomia-t.jpg" media="(max-width: 800px)" />
+          <img class="img-home-superpuesta shadow-light-blue display-none-mobile" src="./imagenes/desktop/gastronomia.jpg" alt="foto de un plato con comida gourmet y una copa de vino">
+        </picture>
         <picture class="img-sombra-mobile">
           <source srcset="./imagenes/mobile/gastronomia2-mb.jpg" media="(max-width: 480px)" />
+          <source srcset="./imagenes/tablet/gastronomia2-t.jpg" media="(max-width: 800px)" />
           <img class="img-home-superpuesta shadow-light-blue" src="./imagenes/desktop/gastronomia2.jpg" alt="foto mujeres comiendo en un restaurante">
         </picture>
         
@@ -134,7 +141,7 @@
 <p><strong> Disfrutá de una fantástica hospitalidad en bares y restaurantes, sumerjite en la naturaleza en los parques nacionales y explorá algunos de los edificios más antiguos de Australia. </strong>El punto de partida perfecto para una escapada a Nueva Gales del Sur.</p>
   
   
-<p class="display-none-mobile">Descubrí Sídney con un guía local y observá lo mejor de la ciudad en un tour privado y personalizable. Recibí consejos de un experto sobre las atracciones principales de la ciudad, así como lugares más eclécticos que no se suelen incluir en las rutas turísticas. Elegí ver monumentos históricos como la Ópera de Sídney y el puente del puerto, tomá sol en Bondi Beach o explorá Darling Harbour. <em> Vos elegís, ya que podés personalizar este tour según tus intereses de la mano de tu guía experto. </em> Aprendé sobre cultura en un museo o galería o recorré un vibrante mercado en uno de los maravillosos barrios de Sídney. Si tenés hambre, dejá que tu guía te lleve a sitios locales para probar la cocina auténtica de Darling Harbour.</p>
+<p class="display-none-mobile display-none-tablet">Descubrí Sídney con un guía local y observá lo mejor de la ciudad en un tour privado y personalizable. Recibí consejos de un experto sobre las atracciones principales de la ciudad, así como lugares más eclécticos que no se suelen incluir en las rutas turísticas. Elegí ver monumentos históricos como la Ópera de Sídney y el puente del puerto, tomá sol en Bondi Beach o explorá Darling Harbour. <em> Vos elegís, ya que podés personalizar este tour según tus intereses de la mano de tu guía experto. </em> Aprendé sobre cultura en un museo o galería o recorré un vibrante mercado en uno de los maravillosos barrios de Sídney. Si tenés hambre, dejá que tu guía te lleve a sitios locales para probar la cocina auténtica de Darling Harbour.</p>
 
 <p>Escribinos para recibir información sobre adquisición de pasajes o recomendaciones de alojamiento.</p>
 <div class="boton ml-18"><a href="contacto.html">+ info</a></div>

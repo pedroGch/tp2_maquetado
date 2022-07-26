@@ -30,7 +30,7 @@ header{
   background-position: left;
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 2;
 }
 
 
@@ -581,6 +581,16 @@ footer p, ul {
   position: relative;
 }
 
+#boton-volver-arriba-info {
+  padding: 20px 20px 117px 20px;
+  margin-bottom: 30px;
+  background-image: url(../imagenes/icono-arriba.png);
+  background-repeat: no-repeat;
+  background-position-x: 97%;
+  position: relative;
+  margin-top: 690px;
+}
+
 .mt-150 {
   margin-top: -150px;
 }
@@ -619,6 +629,7 @@ footer p, ul {
 
 #seccion-contacto h1 {
   padding-bottom: 50px;
+  margin-bottom: 20px;
 }
 .container{
   position: relative;

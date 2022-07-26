@@ -1,6 +1,6 @@
 /*-----------------------------      PROPIEDADES GENERALES, INICIO    --------------------------------*/
 body {
-    width: 480px;
+  /*width: 480px;*/
     
 }
 
@@ -81,6 +81,9 @@ p{
   background-position: center;
 }
 
+.ml10 {
+  margin-left: 10px;
+}
 /*------------------------------      PROPIEDADES GENERALES, FIN     ---------------------------------*/
 
 
@@ -229,6 +232,7 @@ header nav ul:last-child{
     background-color: #fff;
     width: 480px;
     height: 400px;
+    margin-left: 0px;
 }
 
 #fondo-mapa {
@@ -238,24 +242,14 @@ header nav ul:last-child{
 #maps iframe:nth-of-type(2){
     display: none;
 }
-/*
-.maps-responsive {
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-}
 
-.maps-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width: 100%;
-    position:absolute;
-
-}*/
 .wrap-blanco div{
   width: 480px;
+  margin-left: 0px;
+}
+
+#turismo-home .wrap-blanco div .boton {
+  margin-left: -150px;
 }
 
 #mapa{
@@ -264,7 +258,7 @@ header nav ul:last-child{
 
 #espectacular-sidney{
   height: 960px;
-  margin-top: 130px;
+  margin-top: 236px;
   margin-bottom: 13px;
 }
 
@@ -317,6 +311,7 @@ header nav ul:last-child{
 
 #geografia-clima .columna-2 blockquote, #geografia-clima .columna-2 p, #bandera-idioma-demografia .columna-1 p {
   width: 90vw;
+  padding-left: 10px
 }
 
 .img-sombra-mobile {
@@ -516,6 +511,10 @@ footer {
     margin-left: 4%;
   }
 
+  #redes li{
+    padding: 0px 10px 0px 10px;
+  }
+
   #datos-tp ul li {
     text-align: center;
     font-size: 13px;
@@ -526,6 +525,10 @@ footer {
     font-size: 13px;
     padding-left: 30%;
     float: left;
+  }
+
+  #datos-tp {
+    padding: 30px;
   }
   
 /*-------------------------------------      FOOTER, FIN      ----------------------------------------*/

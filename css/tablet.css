@@ -1,0 +1,388 @@
+/*-----------------------------      PROPIEDADES GENERALES, INICIO    --------------------------------*/
+
+main {
+  min-width: 800px;
+}
+
+h1{
+  font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 55px;
+    font-weight: 600;
+    padding: 10px 20px 20px 20px;
+}
+
+p{
+  font-size: 14px;
+  padding: 5px 20px 0 20px;
+}
+
+
+
+.container-centrado{
+  width: 800px;
+  margin: 0 auto;
+
+}
+
+.container-centrado-h1{
+  width: 100vw;
+  margin: 0 auto;
+  padding-top: 5%;
+}
+
+.columna-1, .columna-2 {
+  display: inline-block;
+  width: 50vw;
+  margin-bottom: 20px;
+}
+
+.shadow-light-blue {
+  box-shadow: 15px 15px 0px -1px #41e0df;
+  -webkit-box-shadow: 15px 15px 0px -1px #41e0df;
+  -moz-box-shadow: 15px 15px 0px -1px #41e0df;
+}
+
+.display-none-tablet {
+  display: none;
+}
+
+/*------------------------------      PROPIEDADES GENERALES, FIN     ---------------------------------*/
+
+
+/*-------------------------------------      HEADER, INICIO   ----------------------------------------*/
+#logo {
+  padding: 15px 15px 15px 0px;
+  width: 95px;
+  height: 79px;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 10%;
+  background-image: url("../imagenes/icono-blanco.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 0px;
+}
+
+nav {
+  width: 48px;
+  height: 48px;
+  margin-left: 35%;
+}
+
+.menu {
+  display: none;
+  height: 50vh;
+  margin-left: -185px;
+  background-color: var(--new-light-blue);
+}
+
+.flecha_bajo{
+display: block;
+}
+
+header nav ul li{
+padding-left: 10px;
+font-size: 15px;
+text-align: right;
+}
+
+header nav ul li:nth-child(1){
+  padding-top: 14px;
+}
+
+header nav ul:last-child{
+  padding-bottom: 10px;
+}
+
+/*.op-info::before{
+content: '\273f';
+}*/
+.toggle{
+  position: relative;
+  width: 70px;
+  height: 70px;
+  background: var(--new-light-blue);
+  margin-left: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  overflow: hidden;
+}
+.toggle span{
+  position: absolute;
+  width: 40px;
+  height: 4px;
+  background: var(--light-sand);
+  border-radius: 4px;
+  transition: 0.5s;
+}
+.toggle span:nth-child(1){
+  transform: translateY(-15px);
+}
+.toggle.active span:nth-child(1){
+  transform: translateY(0px) rotate(45deg);
+  transition-delay: 0.125s;
+}
+.toggle span:nth-child(2){
+  transform: translateY(15px);
+}
+.toggle.active span:nth-child(2){
+  transform: translateY(0px) rotate(315deg);
+  transition-delay: 0.25s;
+}
+.toggle.active span:nth-child(3){
+  transform:translateX(60px) ;
+}
+.mostrar{
+  display: block;
+  transition: 0.5s;
+}
+/*-------------------------------------      HEADER, FIN      ----------------------------------------*/
+
+/*-------------------------------------      HOME, INICIO     ----------------------------------------*/
+
+#inicio{
+  width: 100vw;
+  background-image: url("../imagenes/tablet/fondo-inicio-t.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+}
+
+#primer-seccion {
+  margin-top: 25px;
+}
+
+.img-home-superpuesta {
+  padding-left: 15px;
+  width: ;
+  margin-top: 19px;
+}
+
+#fondo-mapa{
+  background-image: url(../imagenes/tablet/mapa-australia-t.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 150px;
+  height: 150px;
+  padding-top: 39px;
+  padding-left: 208px;
+}
+
+#turismo-home{
+  background-image: url(../imagenes/tablet/fondo-olas-t.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 800px;
+  height: 400px;
+  padding-top: 480px;
+  margin: 0;
+}
+
+.wrap-blanco {
+  background-color: #FFF;
+  width: 700px;
+  display: inline-block;
+  margin-left: 50px;
+  height: 310px;
+}
+
+.wrap-blanco div {
+  width: 350px;
+  display: inline-block;
+  float: left;
+ }
+
+ #turismo-home .wrap-blanco div .boton {
+  margin-left: -80px;
+}
+
+#espectacular-sidney {
+  height: 650px;
+  }
+
+#espectacular-sidney .columna-2 h2 {
+  margin-top: 35px
+}
+
+#seccion-vivid-en-index {
+  background-image: url(../imagenes/tablet/eventos-home-t.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 800px;
+  height: 489px;
+  text-align: center;
+}
+
+#bloque-texto-blanco h2 {
+  padding-top: 20px;  
+}
+
+.boton-blanco {
+  margin-left: 320px;
+}
+#mapa {
+  width: 800px;
+}
+#maps iframe:nth-of-type(2){
+  display: none;
+}
+/*-------------------------------------      HOME, FIN        ----------------------------------------*/
+
+
+/*-------------------------------------      INFORMACION, INICIO  ------------------------------------*/
+.img-ubic-historia{
+  padding: 140px 0px 50px 0px;
+}
+
+.img-geografia {
+  margin: 50px 50px 50px 22px;
+}
+
+#geografia-clima .columna-2 blockquote, #geografia-clima .columna-2 p { 
+width: 370px;
+padding: 0;
+
+}
+#bandera-idioma-demografia .columna-1 p {
+  width: 370px;
+  padding: 0px 0px 0px 22px;
+}
+
+#img-final-info {
+  background-image: url(../imagenes/tablet/img-final-info-t.jpg);
+  height: 247px;
+}
+/*-------------------------------------      INFORMACION, FIN  ---------------------------------------*/
+
+
+/*-------------------------------------      TURISMO, INICIO  ----------------------------------------*/
+
+#top-5 img {
+  margin-left: 50px;
+}
+
+.video{
+  width: 800px;
+}
+.card .card-body .card-image{
+  width: 380px; 
+  height: 280px;
+  box-shadow: 15px 15px 0px -1px #41e0df;
+  -webkit-box-shadow: 15px 15px 0px -1px #41e0df;
+  -moz-box-shadow: 15px 15px 0px -1px #41e0df;
+}
+.inverse{
+  width: 380px; 
+  height: 280px;
+  margin-left: 6px;
+  box-shadow: 15px 15px 0px -1px #41e0df !important;
+  -webkit-box-shadow: 15px 15px 0px -1px #41e0df !important;
+  -moz-box-shadow: 15px 15px 0px -1px #41e0df !important;
+}
+.card .card-body .card-image img{
+  width: 100%;
+  height: 100%;
+}
+
+.video-parque{
+  width: 380px;
+}
+
+.mapa-parque{
+  width: 800px;
+}
+/*-------------------------------------      TURISMO, FIN     ----------------------------------------*/
+
+/*-----------------------------------      VIVID SYDNEY, INICIO     ---------------------------------------*/
+
+#inicio-vivid{
+  width: 800px;
+  background-image: url("../imagenes/tablet/fondo-vivid-sydney-t.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+}
+
+/*-------------------------------------      VIVID SYDNEY, FIN     ----------------------------------------*/
+
+
+/*-------------------------------------      CONTACTO, INICIO   --------------------------------------*/
+#seccion-contacto{
+  margin-bottom: 122px;
+}
+
+#seccion-contacto h1 {
+  margin-bottom: 20px;
+}
+
+.container .imgBx {
+  height: 100%;
+  margin-top: -60px;
+}
+
+.container .imgBx img {
+  margin-left: 41px;
+}
+
+.container .formBx form {
+  padding: 0 0 0 30px;
+}
+
+.formBx h2 {
+  font-size: 20px;
+}
+/*-------------------------------------      CONTACTO, FIN    ----------------------------------------*/
+
+
+/*-------------------------------------      GRACIAS, INICIO   ---------------------------------------*/
+/*--------------------------------------     GRACIAS, FIN   ------------------------------------------*/
+
+/*-------------------------------------      FOOTER, INICIO   ----------------------------------------*/
+footer {
+  height: 452px;
+}
+
+#logo-davinci {
+  display: inline-block;
+  background: url(../imagenes/logo-davinci.png);
+  width: 300px;
+  height: 105px;
+  font-size:0px;
+  padding-left: 462px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#redes {
+  margin-left: 15%;
+}
+
+
+#redes li{
+  padding: 0px 20px 0px 20px;
+}
+
+#datos-tp ul li {
+  text-align: center;
+  font-size: 13px;
+}
+
+#alineado-derecha {
+  text-align: center;
+  font-size: 13px;
+  padding-left: 37%;
+  float: left;
+}
+
+#datos-tp {
+  padding: 30px 30px 30px 137px;
+}
+/*-------------------------------------      FOOTER, FIN      ----------------------------------------*/
